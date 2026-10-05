@@ -1,0 +1,19 @@
+T1422.001 | Internet Connection Discovery | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may check for Internet connectivity on compromised systems. This may be performed during automated discovery and can be accomplished in numerous ways such as using `adb shell netstat` for Android.(Citation: adb_commands)
+
+Adversaries may use the results and responses from these requests to determine if the mobile devices are capable of communicating with adversary-owned C2 servers before attempting to connect to them. The results may also be used to identify routes, redirectors, and proxy servers.
+
+KILL CHAIN PHASES
+discovery (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS
+
+MITIGATIONS
+- Encrypt Network Traffic
+
+DETECTION STRATEGIES
+- DET0708 Detection of Internet Connection Discovery

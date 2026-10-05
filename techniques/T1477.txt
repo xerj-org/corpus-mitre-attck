@@ -1,0 +1,19 @@
+T1477 | Exploit via Radio Interfaces | domain: mobile-attack | matrix: mitre-mobile-attack | status: deprecated
+
+DESCRIPTION
+The mobile device may be targeted for exploitation through its interface to cellular networks or other radio interfaces.
+
+### Baseband Vulnerability Exploitation
+
+A message sent over a radio interface (typically cellular, but potentially Bluetooth, GPS, NFC, Wi-Fi(Citation: ProjectZero-BroadcomWiFi) or other) to the mobile device could exploit a vulnerability in code running on the device(Citation: Register-BaseStation)(Citation: Weinmann-Baseband).
+
+### Malicious SMS Message
+
+An SMS message could contain content designed to exploit vulnerabilities in the SMS parser on the receiving device(Citation: Forbes-iPhoneSMS). An SMS message could also contain a link to a web site containing malicious content designed to exploit the device web browser. Vulnerable SIM cards may be remotely exploited and reprogrammed via SMS messages(Citation: SRLabs-SIMCard).
+
+KILL CHAIN PHASES
+initial-access (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS

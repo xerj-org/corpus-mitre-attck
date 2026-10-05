@@ -1,0 +1,19 @@
+T1420 | File and Directory Discovery | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may enumerate files and directories or search in specific device locations for desired information within a filesystem. Adversaries may use the information from [File and Directory Discovery](https://attack.mitre.org/techniques/T1420) during automated discovery to shape follow-on behaviors, including deciding if the adversary should fully infect the target and/or attempt specific actions. 
+
+On Android, Linux file permissions and SELinux policies typically stringently restrict what can be accessed by apps without taking advantage of a privilege escalation exploit. The contents of the external storage directory are generally visible, which could present concerns if sensitive data is inappropriately stored there. iOS's security architecture generally restricts the ability to perform any type of [File and Directory Discovery](https://attack.mitre.org/techniques/T1420) without use of escalated privileges.
+
+KILL CHAIN PHASES
+discovery (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS
+
+MITIGATIONS
+- Use Recent OS Version
+
+DETECTION STRATEGIES
+- DET0682 Detection of File and Directory Discovery

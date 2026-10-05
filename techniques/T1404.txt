@@ -1,0 +1,21 @@
+T1404 | Exploitation for Privilege Escalation | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may exploit software vulnerabilities in order to elevate privileges. Exploitation of a software vulnerability occurs when an adversary takes advantage of a programming error in an application, service, within the operating system software, or kernel itself to execute adversary-controlled code. Security constructions, such as permission levels, will often hinder access to information and use of certain techniques. Adversaries will likely need to perform privilege escalation to include use of software exploitation to circumvent those restrictions. 
+
+When initially gaining access to a device, an adversary may be operating within a lower privileged process which will prevent them from accessing certain resources on the system. Vulnerabilities may exist, usually in operating system components and applications running at higher permissions, that can be exploited to gain higher levels of access on the system. This could enable someone to move from unprivileged or user- level permission to root permissions depending on the component that is vulnerable.
+
+KILL CHAIN PHASES
+privilege-escalation (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS
+
+MITIGATIONS
+- Attestation
+- Deploy Compromised Device Detection Method
+- Security Updates
+
+DETECTION STRATEGIES
+- DET0665 Detection of Exploitation for Privilege Escalation

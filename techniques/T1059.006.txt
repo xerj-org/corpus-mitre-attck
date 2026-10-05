@@ -1,0 +1,24 @@
+T1059.006 | Python | domain: enterprise-attack | matrix: mitre-attack
+
+DESCRIPTION
+Adversaries may abuse Python commands and scripts for execution. Python is a very popular scripting/programming language, with capabilities to perform many functions. Python can be executed interactively from the command-line (via the <code>python.exe</code> interpreter) or via scripts (.py) that can be written and distributed to different systems. Python code can also be compiled into binary executables.(Citation: Zscaler APT31 Covid-19 October 2020)
+
+Python comes with many built-in packages to interact with the underlying system, such as file operations and device I/O. Adversaries can use these libraries to download and execute commands or other scripts as well as perform various malicious behaviors.
+
+KILL CHAIN PHASES
+execution (mitre-attack)
+
+PLATFORMS
+ESXi
+Linux
+macOS
+Windows
+
+MITIGATIONS
+- Antivirus/Antimalware
+- Audit
+- Execution Prevention
+- Limit Software Installation
+
+DETECTION STRATEGIES
+- DET0063 Cross-Platform Behavioral Detection of Python Execution

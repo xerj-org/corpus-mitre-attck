@@ -1,0 +1,16 @@
+T0852 | Screen Capture | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Adversaries may attempt to perform screen capture of devices in the control system environment. Screenshots may be taken of workstations, HMIs, or other devices that display environment-relevant process, device, reporting, alarm, or related data. These device displays may reveal information regarding the ICS process, layout, control, and related schematics. In particular, an HMI can provide a lot of important industrial process information. (Citation: ICS-CERT October 2017) Analysis of screen captures may provide the adversary with an understanding of intended operations and interactions between critical devices.
+
+KILL CHAIN PHASES
+collection (mitre-ics-attack)
+
+PLATFORMS
+None
+
+MITIGATIONS
+- Mitigation Limited or Not Effective
+
+DETECTION STRATEGIES
+- DET0751 Detection of Screen Capture

@@ -1,0 +1,14 @@
+T1576 | Uninstall Malicious Application | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1630.001 (Uninstall Malicious Application)
+
+DESCRIPTION
+Adversaries may include functionality in malware that uninstalls the malicious application from the device. This can be achieved by:
+
+* Abusing device owner permissions to perform silent uninstallation using device owner API calls.
+* Abusing root permissions to delete files from the filesystem.
+* Abusing the accessibility service. This requires an intent be sent to the system to request uninstallation, and then abusing the accessibility service to click the proper places on the screen to confirm uninstallation.
+
+KILL CHAIN PHASES
+defense-evasion (mitre-mobile-attack)
+
+PLATFORMS
+Android

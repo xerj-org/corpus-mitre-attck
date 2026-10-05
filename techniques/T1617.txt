@@ -1,0 +1,17 @@
+T1617 | Hooking | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may utilize hooking to hide the presence of artifacts associated with their behaviors to evade detection. Hooking can be used to modify return values or data structures of system APIs and function calls. This process typically involves using 3rd party root frameworks, such as Xposed or Magisk, with either a system exploit or pre-existing root access. By including custom modules for root frameworks, adversaries can hook system APIs and alter the return value and/or system data structures to alter functionality/visibility of various aspects of the system.
+
+KILL CHAIN PHASES
+defense-evasion (mitre-mobile-attack)
+
+PLATFORMS
+Android
+
+MITIGATIONS
+- Attestation
+- Deploy Compromised Device Detection Method
+
+DETECTION STRATEGIES
+- DET0719 Detection of Hooking

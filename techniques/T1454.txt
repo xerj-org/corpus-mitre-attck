@@ -1,0 +1,10 @@
+T1454 | Malicious SMS Message | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked
+
+DESCRIPTION
+Test
+
+KILL CHAIN PHASES
+collection (mitre-mobile-attack)
+
+PLATFORMS
+Android

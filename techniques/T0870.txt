@@ -1,0 +1,11 @@
+T0870 | Detect Program State | domain: ics-attack | matrix: mitre-ics-attack | status: deprecated
+
+DESCRIPTION
+Adversaries may seek to gather information about the current state of a program on a PLC. State information reveals information about the program, including whether it's running, halted, stopped, or has generated an exception. This information may be leveraged as a verification of malicious program execution or to determine if a PLC is ready to download a new program.
+
+KILL CHAIN PHASES
+collection (mitre-ics-attack)
+
+PLATFORMS
+Windows
+Field Controller/RTU/PLC/IED

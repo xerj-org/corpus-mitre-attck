@@ -1,0 +1,20 @@
+T1629 | Impair Defenses | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may maliciously modify components of a victim environment in order to hinder or disable defensive mechanisms. This not only involves impairing preventative defenses, such as anti-virus, but also detection capabilities that defenders can use to audit activity and identify malicious behavior. This may span both native defenses as well as supplemental capabilities installed by users or mobile endpoint administrators.
+
+KILL CHAIN PHASES
+defense-evasion (mitre-mobile-attack)
+
+PLATFORMS
+Android
+
+MITIGATIONS
+- Deploy Compromised Device Detection Method
+- Enterprise Policy
+- Security Updates
+- System Partition Integrity
+- User Guidance
+
+DETECTION STRATEGIES
+- DET0687 Detection of Impair Defenses

@@ -1,0 +1,1 @@
+T1441 | Stolen Developer Credentials or Signing Keys | domain: mobile-attack | matrix: n/a | status: revoked; superseded by T1475 (Deliver Malicious App via Authorized App Store)

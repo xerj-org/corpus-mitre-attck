@@ -1,0 +1,17 @@
+T0846.001 | Port Scan | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Adversaries may perform a port scan on a system, device, or network to identify live hosts, enumerate open ports and running services, identify operating systems, and map out the network.(Citation: NIST SP 800-82r3) The results of a port scan may inform adversary [Discovery](https://attack.mitre.org/tactics/TA0102), [Lateral Movement](https://attack.mitre.org/tactics/TA0109), and vulnerability exploitation decisions ([Exploitation for Evasion](https://attack.mitre.org/techniques/T0820), [Exploitation for Privilege Escalation](https://attack.mitre.org/techniques/T0890), [Exploitation of Remote Services](https://attack.mitre.org/techniques/T0866)). 
+
+Some common tools for executing a port scan include `nmap`, `netcat`, and the Advanced Port Scanner.
+
+KILL CHAIN PHASES
+discovery (mitre-ics-attack)
+
+MITIGATIONS
+- Network Intrusion Prevention
+- Network Segmentation
+- Static Network Configuration
+
+DETECTION STRATEGIES
+- DET0907 Detection of Port Scan

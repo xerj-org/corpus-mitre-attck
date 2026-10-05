@@ -1,0 +1,19 @@
+T1643 | Generate Traffic from Victim | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may generate outbound traffic from devices. This is typically performed to manipulate external outcomes, such as to achieve carrier billing fraud or to manipulate app store rankings or ratings. Outbound traffic is typically generated as SMS messages or general web traffic, but may take other forms as well.
+
+If done via SMS messages, Android apps must hold the `SEND_SMS` permission. Additionally, sending an SMS message requires user consent if the recipient is a premium number. Applications cannot send SMS messages on iOS
+
+KILL CHAIN PHASES
+impact (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS
+
+MITIGATIONS
+- User Guidance
+
+DETECTION STRATEGIES
+- DET0608 Detection of Generate Traffic from Victim

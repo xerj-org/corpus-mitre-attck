@@ -1,0 +1,15 @@
+T1540 | Code Injection | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1631.001 (Ptrace System Calls)
+
+DESCRIPTION
+Adversaries may use code injection attacks to implant arbitrary code into the address space of a running application. Code is then executed or interpreted by that application. Adversaries utilizing this technique may exploit capabilities to load code in at runtime through dynamic libraries.
+
+With root access, `ptrace` can be used to target specific applications and load shared libraries into its process memory.(Citation: Shunix Code Injection Mar 2016)(Citation: Fadeev Code Injection Aug 2018) By injecting code, an adversary may be able to gain access to higher permissions held by the targeted application by executing as the targeted application. In addition, the adversary may be able to evade detection or enable persistent access to a system under the guise of the application’s process.(Citation: Google Triada June 2019)
+
+KILL CHAIN PHASES
+persistence (mitre-mobile-attack)
+privilege-escalation (mitre-mobile-attack)
+defense-evasion (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS

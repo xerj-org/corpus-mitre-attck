@@ -1,0 +1,19 @@
+T1001.001 | Junk Data | domain: enterprise-attack | matrix: mitre-attack
+
+DESCRIPTION
+Adversaries may add junk data to protocols used for command and control to make detection more difficult.(Citation: FireEye SUNBURST Backdoor December 2020) By adding random or meaningless data to the protocols used for command and control, adversaries can prevent trivial methods for decoding, deciphering, or otherwise analyzing the traffic. Examples may include appending/prepending data with junk characters or writing junk characters between significant characters.
+
+KILL CHAIN PHASES
+command-and-control (mitre-attack)
+
+PLATFORMS
+ESXi
+Linux
+macOS
+Windows
+
+MITIGATIONS
+- Network Intrusion Prevention
+
+DETECTION STRATEGIES
+- DET0011 Detecting Junk Data in C2 Channels via Behavioral Analysis

@@ -1,0 +1,10 @@
+T1507 | Network Information Discovery | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1421 (System Network Connections Discovery)
+
+DESCRIPTION
+Adversaries may use device sensors to collect information about nearby networks, such as Wi-Fi and Bluetooth.
+
+KILL CHAIN PHASES
+collection (mitre-mobile-attack)
+
+PLATFORMS
+Android

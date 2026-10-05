@@ -1,0 +1,1 @@
+T1473 | Malicious or Vulnerable Built-in Device Functionality | domain: mobile-attack | matrix: n/a | status: revoked; superseded by T1474 (Supply Chain Compromise)

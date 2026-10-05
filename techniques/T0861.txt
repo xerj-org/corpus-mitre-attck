@@ -1,0 +1,25 @@
+T0861 | Point & Tag Identification | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Adversaries may collect point and tag values to gain a more comprehensive understanding of the process environment. Points may be values such as inputs, memory locations, outputs or other process specific variables. (Citation: Dennis L. Sloatman September 2016) Tags are the identifiers given to points for operator convenience. 
+
+Collecting such tags provides valuable context to environmental points and enables an adversary to map inputs, outputs, and other values to their control processes. Understanding the points being collected may inform an adversary on which processes and values to keep track of over the course of an operation.
+
+KILL CHAIN PHASES
+collection (mitre-ics-attack)
+
+PLATFORMS
+None
+
+MITIGATIONS
+- Access Management
+- Authorization Enforcement
+- Communication Authenticity
+- Filter Network Traffic
+- Human User Authentication
+- Network Allowlists
+- Network Segmentation
+- Software Process and Device Authentication
+
+DETECTION STRATEGIES
+- DET0788 Detection of Point & Tag Identification

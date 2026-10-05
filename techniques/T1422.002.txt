@@ -1,0 +1,17 @@
+T1422.002 | Wi-Fi Discovery | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may search for information about Wi-Fi networks, such as network names and passwords, on compromised systems. Adversaries may use Wi-Fi information as part of [Discovery](https://attack.mitre.org/tactics/TA0032) or [Credential Access](https://attack.mitre.org/tactics/TA0031) activity to support both ongoing and future campaigns.
+
+KILL CHAIN PHASES
+discovery (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS
+
+MITIGATIONS
+- Use Recent OS Version
+
+DETECTION STRATEGIES
+- DET0709 Detection of Wi-Fi Discovery

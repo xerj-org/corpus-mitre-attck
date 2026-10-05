@@ -1,0 +1,21 @@
+T1636.001 | Calendar Entries | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may utilize standard operating system APIs to gather calendar entry data. On Android, this can be accomplished using the Calendar Content Provider. On iOS, this can be accomplished using the `EventKit` framework. 
+
+ 
+
+If the device has been jailbroken or rooted, an adversary may be able to access [Calendar Entries](https://attack.mitre.org/techniques/T1636/001) without the user’s knowledge or approval.
+
+KILL CHAIN PHASES
+collection (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS
+
+MITIGATIONS
+- User Guidance
+
+DETECTION STRATEGIES
+- DET0674 Detection of Calendar Entries

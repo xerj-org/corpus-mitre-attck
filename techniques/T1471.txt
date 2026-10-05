@@ -1,0 +1,13 @@
+T1471 | Data Encrypted for Impact | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+An adversary may encrypt files stored on a mobile device to prevent the user from accessing them. This may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.
+
+KILL CHAIN PHASES
+impact (mitre-mobile-attack)
+
+PLATFORMS
+Android
+
+DETECTION STRATEGIES
+- DET0678 Detection of Data Encrypted for Impact

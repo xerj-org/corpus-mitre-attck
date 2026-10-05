@@ -1,0 +1,21 @@
+T0865 | Spearphishing Attachment | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Adversaries may use a spearphishing attachment, a variant of spearphishing, as a form of a social engineering attack against specific targets. Spearphishing attachments are different from other forms of spearphishing in that they employ malware attached to an email. All forms of spearphishing are electronically delivered and target a specific individual, company, or industry. In this scenario, adversaries attach a file to the spearphishing email and usually rely upon [User Execution](https://attack.mitre.org/techniques/T0863) to gain execution and access. (Citation: Enterprise ATT&CK October 2019) 
+
+A Chinese spearphishing campaign running from December 9, 2011 through February 29, 2012, targeted ONG organizations and their employees. The emails were constructed with a high level of sophistication to convince employees to open the malicious file attachments. (Citation: CISA AA21-201A Pipeline Intrusion July 2021)
+
+KILL CHAIN PHASES
+initial-access (mitre-ics-attack)
+
+PLATFORMS
+None
+
+MITIGATIONS
+- Antivirus/Antimalware
+- Network Intrusion Prevention
+- Restrict Web-Based Content
+- User Training
+
+DETECTION STRATEGIES
+- DET0781 Detection of Spearphishing Attachment

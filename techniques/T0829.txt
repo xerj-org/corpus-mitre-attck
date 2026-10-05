@@ -1,0 +1,18 @@
+T0829 | Loss of View | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Adversaries may cause a sustained or permanent loss of view where the ICS equipment will require local, hands-on operator intervention; for instance, a restart or manual operation. By causing a sustained reporting or visibility loss, the adversary can effectively hide the present state of operations. This loss of view can occur without affecting the physical processes themselves. (Citation: Corero) (Citation: Michael J. Assante and Robert M. Lee) (Citation: Tyson Macaulay)
+
+KILL CHAIN PHASES
+impact (mitre-ics-attack)
+
+PLATFORMS
+None
+
+MITIGATIONS
+- Data Backup
+- Out-of-Band Communications Channel
+- Redundancy of Service
+
+DETECTION STRATEGIES
+- DET0763 Detection of Loss of View

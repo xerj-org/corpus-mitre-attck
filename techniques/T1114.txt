@@ -1,0 +1,22 @@
+T1114 | Email Collection | domain: enterprise-attack | matrix: mitre-attack
+
+DESCRIPTION
+Adversaries may target user email to collect sensitive information. Emails may contain sensitive data, including trade secrets or personal information, that can prove valuable to adversaries. Emails may also contain details of ongoing incident response operations, which may allow adversaries to adjust their techniques in order to maintain persistence or evade defenses.(Citation: TrustedSec OOB Communications)(Citation: CISA AA20-352A 2021) Adversaries can collect or forward email from mail servers or clients.
+
+KILL CHAIN PHASES
+collection (mitre-attack)
+
+PLATFORMS
+Windows
+macOS
+Linux
+Office Suite
+
+MITIGATIONS
+- Audit
+- Encrypt Sensitive Information
+- Multi-factor Authentication
+- Out-of-Band Communications Channel
+
+DETECTION STRATEGIES
+- DET0476 Email Collection via Local Email Access and Auto-Forwarding Behavior

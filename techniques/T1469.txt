@@ -1,0 +1,11 @@
+T1469 | Remotely Wipe Data Without Authorization | domain: mobile-attack | matrix: mitre-mobile-attack | status: deprecated
+
+DESCRIPTION
+An adversary who is able to obtain unauthorized access to or misuse authorized access to cloud services (e.g. Google's Android Device Manager or Apple iCloud's Find my iPhone) or to an EMM console could use that access to wipe enrolled devices (Citation: Honan-Hacking).
+
+KILL CHAIN PHASES
+remote-service-effects (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS

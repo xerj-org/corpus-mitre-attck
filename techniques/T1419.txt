@@ -1,0 +1,10 @@
+T1419 | Device Type Discovery | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1426 (System Information Discovery)
+
+DESCRIPTION
+On Android, device type information is accessible to apps through the android.os.Build class (Citation: Android-Build). Device information could be used to target privilege escalation exploits.
+
+KILL CHAIN PHASES
+discovery (mitre-mobile-attack)
+
+PLATFORMS
+Android

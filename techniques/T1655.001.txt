@@ -1,0 +1,19 @@
+T1655.001 | Match Legitimate Name or Location | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may match or approximate the name or location of legitimate files or resources when naming/placing them. This is done for the sake of evading defenses and observation. This may be done by giving artifacts the name and icon of a legitimate, trusted application (i.e., Settings), or using a package name that matches legitimate, trusted applications (i.e., `com.google.android.gm`). 
+
+Adversaries may also use the same icon of the file or application they are trying to mimic.
+
+KILL CHAIN PHASES
+defense-evasion (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS
+
+MITIGATIONS
+- User Guidance
+
+DETECTION STRATEGIES
+- DET0609 Detection of Match Legitimate Name or Location

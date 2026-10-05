@@ -1,0 +1,21 @@
+T0820 | Exploitation for Evasion | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Adversaries may exploit a software vulnerability to take advantage of a programming error in a program, service, or within the operating system software or kernel itself to evade detection. Vulnerabilities may exist in software that can be used to disable or circumvent security features.  
+
+Adversaries may have prior knowledge through [Remote System Information Discovery](https://attack.mitre.org/techniques/T0888) about security features implemented on control devices. These device security features will likely be targeted directly for exploitation. There are examples of firmware RAM/ROM consistency checks on control devices being targeted by adversaries to enable the installation of malicious [System Firmware](https://attack.mitre.org/techniques/T0857).
+
+KILL CHAIN PHASES
+evasion (mitre-ics-attack)
+
+PLATFORMS
+None
+
+MITIGATIONS
+- Application Isolation and Sandboxing
+- Exploit Protection
+- Threat Intelligence Program
+- Update Software
+
+DETECTION STRATEGIES
+- DET0795 Detection of Exploitation for Evasion

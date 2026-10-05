@@ -1,0 +1,1 @@
+T1462 | Malicious Software Development Tools | domain: mobile-attack | matrix: n/a | status: revoked; superseded by T1474 (Supply Chain Compromise)

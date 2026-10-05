@@ -1,0 +1,18 @@
+T1426 | System Information Discovery | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may attempt to get detailed information about a device’s operating system and hardware, including versions, patches, and architecture. Adversaries may use the information from [System Information Discovery](https://attack.mitre.org/techniques/T1426) during automated discovery to shape follow-on behaviors, including whether or not to fully infects the target and/or attempts specific actions. 
+
+ 
+
+On Android, much of this information is programmatically accessible to applications through the `android.os.Build` class. (Citation: Android-Build) iOS is much more restrictive with what information is visible to applications. Typically, applications will only be able to query the device model and which version of iOS it is running.
+
+KILL CHAIN PHASES
+discovery (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS
+
+DETECTION STRATEGIES
+- DET0601 Detection of System Information Discovery

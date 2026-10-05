@@ -1,0 +1,11 @@
+T1463 | Manipulate Device Communication | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1638 (Adversary-in-the-Middle)
+
+DESCRIPTION
+If network traffic between the mobile device and a remote server is not securely protected, then an attacker positioned on the network may be able to manipulate network communication without being detected. For example, FireEye researchers found in 2014 that 68% of the top 1,000 free applications in the Google Play Store had at least one Transport Layer Security (TLS) implementation vulnerability potentially opening the applications' network traffic to adversary-in-the-middle attacks (Citation: FireEye-SSL).
+
+KILL CHAIN PHASES
+network-effects (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS

@@ -1,0 +1,14 @@
+T1509 | Non-Standard Port | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may generate network traffic using a protocol and port pairing that are typically not associated. For example, HTTPS over port 8088 or port 587 as opposed to the traditional port 443. Adversaries may make changes to the standard port used by a protocol to bypass filtering or muddle analysis/parsing of network data.
+
+KILL CHAIN PHASES
+command-and-control (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS
+
+DETECTION STRATEGIES
+- DET0706 Detection of Non-Standard Port

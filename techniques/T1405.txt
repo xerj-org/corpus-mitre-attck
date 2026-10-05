@@ -1,0 +1,11 @@
+T1405 | Exploit TEE Vulnerability | domain: mobile-attack | matrix: mitre-mobile-attack | status: deprecated
+
+DESCRIPTION
+A malicious app or other attack vector could be used to exploit vulnerabilities in code running within the Trusted Execution Environment (TEE) (Citation: Thomas-TrustZone). The adversary could then obtain privileges held by the TEE potentially including the ability to access cryptographic keys or other sensitive data (Citation: QualcommKeyMaster). Escalated operating system privileges may be first required in order to have the ability to attack the TEE (Citation: EkbergTEE). If not, privileges within the TEE can potentially be used to exploit the operating system (Citation: laginimaineb-TEE).
+
+KILL CHAIN PHASES
+credential-access (mitre-mobile-attack)
+privilege-escalation (mitre-mobile-attack)
+
+PLATFORMS
+Android

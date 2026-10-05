@@ -1,0 +1,13 @@
+T1605 | Command-Line Interface | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1623.001 (Unix Shell)
+
+DESCRIPTION
+Adversaries may use built-in command-line interfaces to interact with the device and execute commands. Android provides a bash shell that can be interacted with over the Android Debug Bridge (ADB) or programmatically using Java’s `Runtime` package. On iOS, adversaries can interact with the underlying runtime shell if the device has been jailbroken.
+
+If the device has been rooted or jailbroken, adversaries may locate and invoke a superuser binary to elevate their privileges and interact with the system as the root user. This dangerous level of permissions allows the adversary to run special commands and modify protected system files.
+
+KILL CHAIN PHASES
+execution (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS

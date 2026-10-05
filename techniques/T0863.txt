@@ -1,0 +1,25 @@
+T0863 | User Execution | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Adversaries may rely on a targeted organizations user interaction for the execution of malicious code. User interaction may consist of installing applications, opening email attachments, or granting higher permissions to documents. 
+
+Adversaries may embed malicious code or visual basic code into files such as Microsoft Word and Excel documents or software installers. (Citation: Booz Allen Hamilton) Execution of this code requires that the user enable scripting or write access within the document. Embedded code may not always be noticeable to the user especially in cases of trojanized software. (Citation: Daavid Hentunen, Antti Tikkanen June 2014) 
+
+A Chinese spearphishing campaign running from December 9, 2011 through February 29, 2012 delivered malware through spearphishing attachments which required user action to achieve execution. (Citation: CISA AA21-201A Pipeline Intrusion July 2021)
+
+KILL CHAIN PHASES
+execution (mitre-ics-attack)
+
+PLATFORMS
+None
+
+MITIGATIONS
+- Antivirus/Antimalware
+- Code Signing
+- Execution Prevention
+- Network Intrusion Prevention
+- Restrict Web-Based Content
+- User Training
+
+DETECTION STRATEGIES
+- DET0791 Detection of User Execution

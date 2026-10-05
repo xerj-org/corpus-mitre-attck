@@ -1,0 +1,16 @@
+T0840 | Network Connection Enumeration | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Adversaries may perform network connection enumeration to discover information about device communication patterns. If an adversary can inspect the state of a network connection with tools, such as Netstat(Citation: Netstat), in conjunction with [System Firmware](https://attack.mitre.org/techniques/T0857), then they can determine the role of certain devices on the network  (Citation: MITRE). The adversary can also use [Network Sniffing](https://attack.mitre.org/techniques/T0842) to watch network traffic for details about the source, destination, protocol, and content.
+
+KILL CHAIN PHASES
+discovery (mitre-ics-attack)
+
+PLATFORMS
+None
+
+MITIGATIONS
+- Mitigation Limited or Not Effective
+
+DETECTION STRATEGIES
+- DET0770 Detection of Network Connection Enumeration

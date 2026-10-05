@@ -1,0 +1,20 @@
+T0815 | Denial of View | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Adversaries may cause a denial of view in attempt to disrupt and prevent operator oversight on the status of an ICS environment. This may manifest itself as a temporary communication failure between a device and its control source, where the interface recovers and becomes available once the interference ceases. (Citation: Corero) (Citation: Michael J. Assante and Robert M. Lee) (Citation: Tyson Macaulay) 
+
+An adversary may attempt to deny operator visibility by preventing them from receiving status and reporting messages. Denying this view may temporarily block and prevent operators from noticing a change in state or anomalous behavior. The environment's data and processes may still be operational, but functioning in an unintended or adversarial manner.
+
+KILL CHAIN PHASES
+impact (mitre-ics-attack)
+
+PLATFORMS
+None
+
+MITIGATIONS
+- Data Backup
+- Out-of-Band Communications Channel
+- Redundancy of Service
+
+DETECTION STRATEGIES
+- DET0769 Detection of Denial of View

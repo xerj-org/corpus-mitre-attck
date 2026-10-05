@@ -1,0 +1,12 @@
+T1065 | Uncommonly Used Port | domain: enterprise-attack | matrix: mitre-attack | status: revoked; superseded by T1571 (Non-Standard Port)
+
+DESCRIPTION
+Adversaries may conduct C2 communications over a non-standard port to bypass proxies and firewalls that have been improperly configured.
+
+KILL CHAIN PHASES
+command-and-control (mitre-attack)
+
+PLATFORMS
+Linux
+macOS
+Windows

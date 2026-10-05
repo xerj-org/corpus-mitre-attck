@@ -1,0 +1,13 @@
+T1433 | Access Call Log | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1636.002 (Call Log)
+
+DESCRIPTION
+On Android, an adversary could call standard operating system APIs from a malicious application to gather call log data, or with escalated privileges could directly access files containing call log data.
+
+On iOS, applications do not have access to the call log, so privilege escalation would be required in order to access the data.
+
+KILL CHAIN PHASES
+collection (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS

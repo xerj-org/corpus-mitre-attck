@@ -1,0 +1,29 @@
+T1693.001 | System Firmware | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+System firmware on modern assets is often designed with an update feature. Older device firmware may be factory installed and require special reprograming equipment. When available, the firmware update feature enables vendors to remotely patch bugs and perform upgrades. Device firmware updates are often delegated to the user and may be done using a software update package. It may also be possible to perform this task over the network.
+
+An adversary may exploit the firmware update feature on accessible devices to upload malicious or out-of-date firmware. Malicious modification of device firmware may provide an adversary with root access to a device, given firmware is one of the lowest programming abstraction layers.(Citation: Basnight, Zachry, et al.)
+
+KILL CHAIN PHASES
+persistence (mitre-ics-attack)
+inhibit-response-function (mitre-ics-attack)
+impair-process-control (mitre-ics-attack)
+
+MITIGATIONS
+- Access Management
+- Audit
+- Boot Integrity
+- Code Signing
+- Communication Authenticity
+- Encrypt Network Traffic
+- Encrypt Sensitive Information
+- Filter Network Traffic
+- Human User Authentication
+- Network Allowlists
+- Network Segmentation
+- Software Process and Device Authentication
+- Update Software
+
+DETECTION STRATEGIES
+- DET0731 Detection of System Firmware

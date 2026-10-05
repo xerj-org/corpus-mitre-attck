@@ -1,0 +1,13 @@
+T1438 | Exfiltration Over Other Network Medium | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1644 (Out of Band Data)
+
+DESCRIPTION
+Adversaries may attempt to exfiltrate data over a different network medium than the command and control channel. If the command and control network is a standard Internet connection, the exfiltration may occur, for example, via Bluetooth, or another radio frequency (RF) channel. 
+
+Adversaries may choose to do this if they have sufficient access or proximity, and the connection might not be secured or defended as well as the primary Internet-connected channel because it is not routed through the same enterprise network.
+
+KILL CHAIN PHASES
+command-and-control (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS

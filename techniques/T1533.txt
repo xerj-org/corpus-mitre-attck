@@ -1,0 +1,18 @@
+T1533 | Data from Local System | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may search local system sources, such as file systems or local databases, to find files of interest and sensitive data prior to exfiltration.  
+
+ 
+
+Access to local system data, which includes information stored by the operating system, often requires escalated privileges. Examples of local system data include authentication tokens, the device keyboard cache, Wi-Fi passwords, and photos. On Android, adversaries may also attempt to access files from external storage which may require additional storage-related permissions.
+
+KILL CHAIN PHASES
+collection (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS
+
+DETECTION STRATEGIES
+- DET0713 Detection of Data from Local System

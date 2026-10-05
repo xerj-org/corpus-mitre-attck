@@ -1,0 +1,14 @@
+T1544 | Ingress Tool Transfer | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may transfer tools or other files from an external system onto a compromised device to facilitate follow-on actions. Files may be copied from an external adversary-controlled system through the command and control channel  or through alternate protocols with another tool such as FTP.
+
+KILL CHAIN PHASES
+command-and-control (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS
+
+DETECTION STRATEGIES
+- DET0718 Detection of Ingress Tool Transfer

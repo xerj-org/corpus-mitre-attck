@@ -1,0 +1,28 @@
+T0816 | Device Restart/Shutdown | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Adversaries may forcibly restart or shutdown a device in an ICS environment to disrupt and potentially negatively impact physical processes. Methods of device restart and shutdown exist in some devices as built-in, standard functionalities. These functionalities can be executed using interactive device web interfaces, CLIs, and network protocol commands.
+
+Unexpected restart or shutdown of control system devices may prevent expected response functions happening during critical states.
+
+A device restart can also be a sign of malicious device modifications, as many updates require a shutdown in order to take effect.
+
+KILL CHAIN PHASES
+inhibit-response-function (mitre-ics-attack)
+
+PLATFORMS
+None
+
+MITIGATIONS
+- Access Management
+- Authorization Enforcement
+- Communication Authenticity
+- Disable or Remove Feature or Program
+- Filter Network Traffic
+- Human User Authentication
+- Network Allowlists
+- Network Segmentation
+- Software Process and Device Authentication
+
+DETECTION STRATEGIES
+- DET0801 Detection of Device Restart/Shutdown

@@ -1,0 +1,29 @@
+T1078.003 | Local Accounts | domain: enterprise-attack | matrix: mitre-attack
+
+DESCRIPTION
+Adversaries may obtain and abuse credentials of a local account as a means of gaining Initial Access, Persistence, Privilege Escalation, or Defense Evasion. Local accounts are those configured by an organization for use by users, remote support, services, or for administration on a single system or service.
+
+Local Accounts may also be abused to elevate privileges and harvest credentials through [OS Credential Dumping](https://attack.mitre.org/techniques/T1003). Password reuse may allow the abuse of local accounts across a set of machines on a network for the purposes of Privilege Escalation and Lateral Movement.
+
+KILL CHAIN PHASES
+stealth (mitre-attack)
+persistence (mitre-attack)
+privilege-escalation (mitre-attack)
+initial-access (mitre-attack)
+
+PLATFORMS
+Containers
+ESXi
+Linux
+macOS
+Network Devices
+Windows
+
+MITIGATIONS
+- Multi-factor Authentication
+- Password Policies
+- Privileged Account Management
+- User Account Management
+
+DETECTION STRATEGIES
+- DET0407 Detection of Local Account Abuse for Initial Access and Persistence

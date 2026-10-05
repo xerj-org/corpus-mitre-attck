@@ -1,0 +1,20 @@
+T1137.003 | Outlook Forms | domain: enterprise-attack | matrix: mitre-attack
+
+DESCRIPTION
+Adversaries may abuse Microsoft Outlook forms to obtain persistence on a compromised system. Outlook forms are used as templates for presentation and functionality in Outlook messages. Custom Outlook forms can be created that will execute code when a specifically crafted email is sent by an adversary utilizing the same custom Outlook form.(Citation: SensePost Outlook Forms)
+
+Once malicious forms have been added to the user’s mailbox, they will be loaded when Outlook is started. Malicious forms will execute when an adversary sends a specifically crafted email to the user.(Citation: SensePost Outlook Forms)
+
+KILL CHAIN PHASES
+persistence (mitre-attack)
+
+PLATFORMS
+Windows
+Office Suite
+
+MITIGATIONS
+- Behavior Prevention on Endpoint
+- Update Software
+
+DETECTION STRATEGIES
+- DET0029 Detect Persistence via Outlook Custom Forms Triggered by Malicious Email

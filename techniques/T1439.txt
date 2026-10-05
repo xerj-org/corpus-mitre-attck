@@ -1,0 +1,11 @@
+T1439 | Eavesdrop on Insecure Network Communication | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1638 (Adversary-in-the-Middle)
+
+DESCRIPTION
+If network traffic between the mobile device and remote servers is unencrypted or is encrypted in an insecure manner, then an adversary positioned on the network can eavesdrop on communication.(Citation: mHealth)
+
+KILL CHAIN PHASES
+network-effects (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS

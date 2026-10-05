@@ -1,0 +1,11 @@
+T1452 | Manipulate App Store Rankings or Ratings | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1643 (Generate Traffic from Victim)
+
+DESCRIPTION
+An adversary could use access to a compromised device's credentials to attempt to manipulate app store rankings or ratings by triggering application downloads or posting fake reviews of applications. This technique likely requires privileged access (a rooted or jailbroken device).
+
+KILL CHAIN PHASES
+impact (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS

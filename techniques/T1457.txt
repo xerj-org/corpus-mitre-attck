@@ -1,0 +1,1 @@
+T1457 | Malicious Media Content | domain: mobile-attack | matrix: n/a | status: revoked; superseded by T1456 (Drive-By Compromise)

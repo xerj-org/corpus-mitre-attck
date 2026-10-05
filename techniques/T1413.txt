@@ -1,0 +1,11 @@
+T1413 | Access Sensitive Data in Device Logs | domain: mobile-attack | matrix: mitre-mobile-attack | status: deprecated
+
+DESCRIPTION
+On versions of Android prior to 4.1, an adversary may use a malicious application that holds the READ_LOGS permission to obtain private keys, passwords, other credentials, or other sensitive data stored in the device's system log. On Android 4.1 and later, an adversary would need to attempt to perform an operating system privilege escalation attack to be able to access the log.
+
+KILL CHAIN PHASES
+collection (mitre-mobile-attack)
+credential-access (mitre-mobile-attack)
+
+PLATFORMS
+Android

@@ -1,0 +1,12 @@
+T1508 | Suppress Application Icon | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1628.001 (Suppress Application Icon)
+
+DESCRIPTION
+A malicious application could suppress its icon from being displayed to the user in the application launcher to hide the fact that it is installed, and to make it more difficult for the user to uninstall the application. Hiding the application's icon programmatically does not require any special permissions.
+
+This behavior has been seen in the BankBot/Spy Banker family of malware.(Citation: android-trojan-steals-paypal-2fa)(Citation: sunny-stolen-credentials)(Citation: bankbot-spybanker)
+
+KILL CHAIN PHASES
+defense-evasion (mitre-mobile-attack)
+
+PLATFORMS
+Android

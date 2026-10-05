@@ -1,0 +1,26 @@
+T1505 | Server Software Component | domain: enterprise-attack | matrix: mitre-attack
+
+DESCRIPTION
+Adversaries may abuse legitimate extensible development features of servers to establish persistent access to systems. Enterprise server applications may include features that allow developers to write and install software or scripts to extend the functionality of the main application. Adversaries may install malicious components to extend and abuse server applications.(Citation: volexity_0day_sophos_FW)
+
+KILL CHAIN PHASES
+persistence (mitre-attack)
+
+PLATFORMS
+Windows
+Linux
+macOS
+Network Devices
+ESXi
+
+MITIGATIONS
+- Audit
+- Boot Integrity
+- Code Signing
+- Disable or Remove Feature or Program
+- Privileged Account Management
+- Restrict Registry Permissions
+- User Account Management
+
+DETECTION STRATEGIES
+- DET0547 Detection Strategy for T1505 - Server Software Component

@@ -1,0 +1,12 @@
+T1089 | Disabling Security Tools | domain: enterprise-attack | matrix: mitre-attack | status: revoked; superseded by T1685 (Disable or Modify Tools)
+
+DESCRIPTION
+Adversaries may disable security tools to avoid possible detection of their tools and activities. This can take the form of killing security software or event logging processes, deleting Registry keys so that tools do not start at run time, or other methods to interfere with security scanning or event reporting.
+
+KILL CHAIN PHASES
+stealth (mitre-attack)
+
+PLATFORMS
+Linux
+macOS
+Windows

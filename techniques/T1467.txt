@@ -1,0 +1,11 @@
+T1467 | Rogue Cellular Base Station | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1638 (Adversary-in-the-Middle)
+
+DESCRIPTION
+An adversary could set up a rogue cellular base station and then use it to eavesdrop on or manipulate cellular device communication. A compromised cellular femtocell could be used to carry out this technique(Citation: Computerworld-Femtocell).
+
+KILL CHAIN PHASES
+network-effects (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS

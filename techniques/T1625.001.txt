@@ -1,0 +1,20 @@
+T1625.001 | System Runtime API Hijacking | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may execute their own malicious payloads by hijacking the way an operating system runs applications. Hijacking execution flow can be for the purposes of persistence since this hijacked execution may reoccur at later points in time. 
+
+
+On Android, adversaries may overwrite the standard OS API library with a malicious alternative to hook into core functions to achieve persistence. By doing this, the adversary’s code will be executed every time the overwritten API function is called by an app on the infected device.
+
+KILL CHAIN PHASES
+persistence (mitre-mobile-attack)
+
+PLATFORMS
+Android
+
+MITIGATIONS
+- Attestation
+- System Partition Integrity
+
+DETECTION STRATEGIES
+- DET0689 Detection of System Runtime API Hijacking

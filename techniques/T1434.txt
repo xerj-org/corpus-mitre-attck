@@ -1,0 +1,1 @@
+T1434 | App Delivered via Email Attachment | domain: mobile-attack | matrix: n/a | status: revoked; superseded by T1476 (Deliver Malicious App via Other Means)

@@ -1,0 +1,27 @@
+T1409 | Stored Application Data | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may try to access and collect application data resident on the device. Adversaries often target popular applications, such as Facebook, WeChat, and Gmail.(Citation: SWB Exodus March 2019) 
+
+ 
+
+Due to mobile OS sandboxing, this technique is only possible in three scenarios: 
+
+ 
+
+* An application stores files in unprotected external storage 
+* An application stores files in its internal storage directory with insecure permissions (e.g. 777) 
+* The adversary gains root permissions on the device
+
+KILL CHAIN PHASES
+collection (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS
+
+MITIGATIONS
+- Use Recent OS Version
+
+DETECTION STRATEGIES
+- DET0621 Detection of Stored Application Data

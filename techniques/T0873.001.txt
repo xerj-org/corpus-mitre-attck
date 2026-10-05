@@ -1,0 +1,18 @@
+T0873.001 | Siemens Project File Format | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Adversaries may infect Siemens PLC project files (i.e., Step 7, WinCC, etc.) to achieve [Execution](https://attack.mitre.org/tactics/TA0104), [Persistence](https://attack.mitre.org/tactics/TA0110), and [Lateral Movement](https://attack.mitre.org/tactics/TA0109) objectives. Adversaries may modify an existing project file or bring their own project files into the environment.(Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)
+
+The ability for an adversary to deploy an infected project file relies on access to a workstation with Siemens PLC programming software installed on it from which a program download can be performed.
+
+KILL CHAIN PHASES
+persistence (mitre-ics-attack)
+
+MITIGATIONS
+- Audit
+- Code Signing
+- Encrypt Sensitive Information
+- Restrict File and Directory Permissions
+
+DETECTION STRATEGIES
+- DET0906 Detection of Siemens Project File Format Infection

@@ -1,0 +1,12 @@
+T1032 | Standard Cryptographic Protocol | domain: enterprise-attack | matrix: mitre-attack | status: revoked; superseded by T1573 (Encrypted Channel)
+
+DESCRIPTION
+Adversaries may explicitly employ a known encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. Despite the use of a secure algorithm, these implementations may be vulnerable to reverse engineering if necessary secret keys are encoded and/or generated within malware samples/configuration files.
+
+KILL CHAIN PHASES
+command-and-control (mitre-attack)
+
+PLATFORMS
+Linux
+macOS
+Windows

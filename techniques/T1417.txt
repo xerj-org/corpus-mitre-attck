@@ -1,0 +1,20 @@
+T1417 | Input Capture | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may use methods of capturing user input to obtain credentials or collect information. During normal device usage, users often provide credentials to various locations, such as login pages/portals or system dialog boxes. Input capture mechanisms may be transparent to the user (e.g. [Keylogging](https://attack.mitre.org/techniques/T1417/001)) or rely on deceiving the user into providing input into what they believe to be a genuine application prompt (e.g. [GUI Input Capture](https://attack.mitre.org/techniques/T1417/002)).
+
+KILL CHAIN PHASES
+collection (mitre-mobile-attack)
+credential-access (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS
+
+MITIGATIONS
+- Enterprise Policy
+- Use Recent OS Version
+- User Guidance
+
+DETECTION STRATEGIES
+- DET0705 Detection of Input Capture

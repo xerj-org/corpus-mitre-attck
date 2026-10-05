@@ -1,0 +1,17 @@
+T1474.001 | Compromise Software Dependencies and Development Tools | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may manipulate products or product delivery mechanisms prior to receipt by a final consumer for the purpose of data or system compromise. Applications often depend on external software to function properly. Popular open source projects that are used as dependencies in many applications may be targeted as a means to add malicious code to users of the dependency.(Citation: Grace-Advertisement)
+
+KILL CHAIN PHASES
+initial-access (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS
+
+MITIGATIONS
+- Application Developer Guidance
+
+DETECTION STRATEGIES
+- DET0704 Detection of Compromise Software Dependencies and Development Tools

@@ -1,0 +1,19 @@
+T1008 | Fallback Channels | domain: enterprise-attack | matrix: mitre-attack
+
+DESCRIPTION
+Adversaries may use fallback or alternate communication channels if the primary channel is compromised or inaccessible in order to maintain reliable command and control and to avoid data transfer thresholds.
+
+KILL CHAIN PHASES
+command-and-control (mitre-attack)
+
+PLATFORMS
+ESXi
+Linux
+macOS
+Windows
+
+MITIGATIONS
+- Network Intrusion Prevention
+
+DETECTION STRATEGIES
+- DET0499 Behavioral Detection of Fallback or Alternate C2 Channels

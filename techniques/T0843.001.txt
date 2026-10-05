@@ -1,0 +1,24 @@
+T0843.001 | Download All | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Adversaries may execute a full program download to a PLC to overwrite the entire PLC program and configuration to deploy a new project or make major changes. This typically requires stopping the PLC and adversely impacting control processes.
+
+The ability to perform a full program download to the PLC typically relies on access to a workstation with the vendor-specific PLC programming software installed.
+
+KILL CHAIN PHASES
+lateral-movement (mitre-ics-attack)
+
+MITIGATIONS
+- Access Management
+- Audit
+- Authorization Enforcement
+- Code Signing
+- Communication Authenticity
+- Filter Network Traffic
+- Human User Authentication
+- Network Allowlists
+- Network Segmentation
+- Software Process and Device Authentication
+
+DETECTION STRATEGIES
+- DET0913 Detection of Program Download All

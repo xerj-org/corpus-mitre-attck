@@ -1,0 +1,1 @@
+T1455 | Exploit Baseband Vulnerability | domain: mobile-attack | matrix: n/a | status: revoked; superseded by T1477 (Exploit via Radio Interfaces)

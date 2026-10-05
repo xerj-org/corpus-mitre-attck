@@ -1,0 +1,11 @@
+T1435 | Access Calendar Entries | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1636.001 (Calendar Entries)
+
+DESCRIPTION
+An adversary could call standard operating system APIs from a malicious application to gather calendar entry data, or with escalated privileges could directly access files containing calendar data.
+
+KILL CHAIN PHASES
+collection (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS

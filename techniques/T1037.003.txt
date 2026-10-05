@@ -1,0 +1,19 @@
+T1037.003 | Network Logon Script | domain: enterprise-attack | matrix: mitre-attack
+
+DESCRIPTION
+Adversaries may use network logon scripts automatically executed at logon initialization to establish persistence. Network logon scripts can be assigned using Active Directory or Group Policy Objects.(Citation: Petri Logon Script AD) These logon scripts run with the privileges of the user they are assigned to. Depending on the systems within the network, initializing one of these scripts could apply to more than one or potentially all systems.  
+ 
+Adversaries may use these scripts to maintain persistence on a network. Depending on the access configuration of the logon scripts, either local credentials or an administrator account may be necessary.
+
+KILL CHAIN PHASES
+persistence (mitre-attack)
+privilege-escalation (mitre-attack)
+
+PLATFORMS
+Windows
+
+MITIGATIONS
+- Restrict File and Directory Permissions
+
+DETECTION STRATEGIES
+- DET0367 Detect Network Logon Script Abuse via Multi-Event Correlation on Windows

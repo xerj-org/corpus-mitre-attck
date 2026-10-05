@@ -1,0 +1,19 @@
+T1629.003 | Disable or Modify Tools | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may disable security tools to avoid potential detection of their tools and activities. This can take the form of disabling security software, modifying SELinux configuration, or other methods to interfere with security tools scanning or reporting information. This is typically done by abusing device administrator permissions or using system exploits to gain root access to the device to modify protected system files.
+
+KILL CHAIN PHASES
+defense-evasion (mitre-mobile-attack)
+
+PLATFORMS
+Android
+
+MITIGATIONS
+- Deploy Compromised Device Detection Method
+- Security Updates
+- System Partition Integrity
+- User Guidance
+
+DETECTION STRATEGIES
+- DET0693 Detection of Disable or Modify Tools

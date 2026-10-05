@@ -1,0 +1,18 @@
+T0869 | Standard Application Layer Protocol | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Adversaries may establish command and control capabilities over commonly used application layer protocols such as HTTP(S), OPC, RDP, telnet, DNP3, and modbus. These protocols may be used to disguise adversary actions as benign network traffic. Standard protocols may be seen on their associated port or in some cases over a non-standard port.  Adversaries may use these protocols to reach out of the network for command and control, or in some cases to other infected devices within the network.
+
+KILL CHAIN PHASES
+command-and-control (mitre-ics-attack)
+
+PLATFORMS
+None
+
+MITIGATIONS
+- Network Allowlists
+- Network Intrusion Prevention
+- Network Segmentation
+
+DETECTION STRATEGIES
+- DET0799 Detection of Standard Application Layer Protocol

@@ -1,0 +1,18 @@
+T1448 | Carrier Billing Fraud | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1643 (Generate Traffic from Victim)
+
+DESCRIPTION
+A malicious app may trigger fraudulent charges on a victim’s carrier billing statement in several different ways, including SMS toll fraud and SMS shortcodes that make purchases.
+
+Performing SMS fraud relies heavily upon the fact that, when making SMS purchases, the carriers perform device verification but not user verification. This allows adversaries to make purchases on behalf of the user, with little or no user interaction.(Citation: Google Bread)
+
+Malicious applications may also perform toll billing, which occurs when carriers provide payment endpoints over a web page. The application connects to the web page over cellular data so the carrier can directly verify the number, or the application must retrieve a code sent via SMS and enter it into the web page.(Citation: Google Bread)
+
+On iOS, apps cannot send SMS messages.
+
+On Android, apps must hold the `SEND_SMS` permission to send SMS messages. Additionally, Android version 4.2 and above has mitigations against this threat by requiring user consent before allowing SMS messages to be sent to premium numbers (Citation: AndroidSecurity2014).
+
+KILL CHAIN PHASES
+impact (mitre-mobile-attack)
+
+PLATFORMS
+Android

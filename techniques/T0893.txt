@@ -1,0 +1,21 @@
+T0893 | Data from Local System | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Adversaries may target and collect data from local system sources, such as file systems, configuration files, or local databases. This can include sensitive data such as specifications, schematics, or diagrams of control system layouts, devices, and processes.
+
+Adversaries may do this using [Command-Line Interface](https://attack.mitre.org/techniques/T0807) or [Scripting](https://attack.mitre.org/techniques/T0853) techniques to interact with the file system to gather information. Adversaries may also use [Automated Collection](https://attack.mitre.org/techniques/T0802) on the local system.
+
+KILL CHAIN PHASES
+collection (mitre-ics-attack)
+
+PLATFORMS
+None
+
+MITIGATIONS
+- Data Loss Prevention
+- Encrypt Sensitive Information
+- Restrict File and Directory Permissions
+- User Training
+
+DETECTION STRATEGIES
+- DET0749 Detection of Data from Local System

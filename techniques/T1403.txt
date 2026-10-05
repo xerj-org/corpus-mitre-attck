@@ -1,0 +1,10 @@
+T1403 | Modify Cached Executable Code | domain: mobile-attack | matrix: mitre-mobile-attack | status: deprecated
+
+DESCRIPTION
+ART (the Android Runtime) compiles optimized code on the device itself to improve performance. An adversary may be able to use escalated privileges to modify the cached code in order to hide malicious behavior. Since the code is compiled on the device, it may not receive the same level of integrity checks that are provided to code running in the system partition.(Citation: Sabanal-ART)
+
+KILL CHAIN PHASES
+persistence (mitre-mobile-attack)
+
+PLATFORMS
+Android

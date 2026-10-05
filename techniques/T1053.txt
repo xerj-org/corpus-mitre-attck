@@ -1,0 +1,29 @@
+T1053 | Scheduled Task/Job | domain: enterprise-attack | matrix: mitre-attack
+
+DESCRIPTION
+Adversaries may abuse task scheduling functionality to facilitate initial or recurring execution of malicious code. Utilities exist within all major operating systems to schedule programs or scripts to be executed at a specified date and time. A task can also be scheduled on a remote system, provided the proper authentication is met (ex: RPC and file and printer sharing in Windows environments). Scheduling a task on a remote system typically may require being a member of an admin or otherwise privileged group on the remote system.(Citation: TechNet Task Scheduler Security)
+
+Adversaries may use task scheduling to execute programs at system startup or on a scheduled basis for persistence. These mechanisms can also be abused to run a process under the context of a specified account (such as one with elevated permissions/privileges). Similar to [System Binary Proxy Execution](https://attack.mitre.org/techniques/T1218), adversaries have also abused task scheduling to potentially mask one-time execution under a trusted system process.(Citation: ProofPoint Serpent)
+
+KILL CHAIN PHASES
+execution (mitre-attack)
+persistence (mitre-attack)
+privilege-escalation (mitre-attack)
+
+PLATFORMS
+Containers
+ESXi
+Linux
+macOS
+Network Devices
+Windows
+
+MITIGATIONS
+- Audit
+- Operating System Configuration
+- Privileged Account Management
+- Restrict File and Directory Permissions
+- User Account Management
+
+DETECTION STRATEGIES
+- DET0094 Cross-Platform Behavioral Detection of Scheduled Task/Job Abuse

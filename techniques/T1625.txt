@@ -1,0 +1,19 @@
+T1625 | Hijack Execution Flow | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may execute their own malicious payloads by hijacking the way operating systems run applications. Hijacking execution flow can be for the purposes of persistence since this hijacked execution may reoccur over time. 
+
+There are many ways an adversary may hijack the flow of execution. A primary way is by manipulating how the operating system locates programs to be executed. How the operating system locates libraries to be used by a program can also be intercepted. Locations where the operating system looks for programs or resources, such as file directories, could also be poisoned to include malicious payloads.
+
+KILL CHAIN PHASES
+persistence (mitre-mobile-attack)
+
+PLATFORMS
+Android
+
+MITIGATIONS
+- Attestation
+- System Partition Integrity
+
+DETECTION STRATEGIES
+- DET0694 Detection of Hijack Execution Flow

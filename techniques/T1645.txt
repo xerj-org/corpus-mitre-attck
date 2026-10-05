@@ -1,0 +1,22 @@
+T1645 | Compromise Client Software Binary | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may modify system software binaries to establish persistent access to devices. System software binaries are used by the underlying operating system and users over adb or terminal emulators. 
+
+Adversaries may make modifications to client software binaries to carry out malicious tasks when those binaries are executed. For example, malware may come with a pre-compiled malicious binary intended to overwrite the genuine one on the device. Since these binaries may be routinely executed by the system or user, the adversary can leverage this for persistent access to the device.
+
+KILL CHAIN PHASES
+persistence (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS
+
+MITIGATIONS
+- Attestation
+- Lock Bootloader
+- Security Updates
+- System Partition Integrity
+
+DETECTION STRATEGIES
+- DET0712 Detection of Compromise Client Software Binary

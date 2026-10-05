@@ -1,0 +1,13 @@
+T1520 | Domain Generation Algorithms | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1637.001 (Domain Generation Algorithms)
+
+DESCRIPTION
+Adversaries may use [Domain Generation Algorithms](https://attack.mitre.org/techniques/T1520) (DGAs) to procedurally generate domain names for command and control communication, and other uses such as malicious application distribution.(Citation: securelist rotexy 2018)
+
+DGAs increase the difficulty for defenders to block, track, or take over the command and control channel, as there potentially could be thousands of domains that malware can check for instructions.
+
+KILL CHAIN PHASES
+command-and-control (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS

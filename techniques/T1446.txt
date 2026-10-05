@@ -1,0 +1,16 @@
+T1446 | Device Lockout | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1629.002 (Device Lockout)
+
+DESCRIPTION
+An adversary may seek to lock the legitimate user out of the device, for example to inhibit user interaction or to obtain a ransom payment.
+
+On Android versions prior to 7, apps can abuse Device Administrator access to reset the device lock passcode to prevent the user from unlocking the device. After Android 7, only device or profile owners (e.g. MDMs) can reset the device’s passcode.(Citation: Android resetPassword)
+
+On iOS devices, this technique does not work because mobile device management servers can only remove the screen lock passcode, they cannot set a new passcode. However, on jailbroken devices, malware has been discovered that can lock the user out of the device.(Citation: Xiao-KeyRaider)
+
+KILL CHAIN PHASES
+impact (mitre-mobile-attack)
+defense-evasion (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS

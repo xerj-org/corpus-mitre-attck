@@ -1,0 +1,14 @@
+T1510 | Clipboard Modification | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1641.001 (Transmitted Data Manipulation)
+
+DESCRIPTION
+Adversaries may abuse clipboard functionality to intercept and replace information in the Android device clipboard.(Citation: ESET Clipboard Modification February 2019)(Citation: Welivesecurity Clipboard Modification February 2019)(Citation: Syracuse Clipboard Modification 2014) Malicious applications may monitor the clipboard activity through the <code>ClipboardManager.OnPrimaryClipChangedListener</code> interface on Android to determine when the clipboard contents have changed.(Citation: Dr.Webb Clipboard Modification origin2 August 2018)(Citation: Dr.Webb Clipboard Modification origin August 2018) Listening to clipboard activity, reading the clipboard contents, and modifying the clipboard contents requires no explicit application permissions and can be performed by applications running in the background, however, this behavior has changed with the release of Android 10.(Citation: Android 10 Privacy Changes)
+
+Adversaries may use [Clipboard Modification](https://attack.mitre.org/techniques/T1510) to replace text prior to being pasted, for example, replacing a copied Bitcoin wallet address with a wallet address that is under adversarial control.
+
+[Clipboard Modification](https://attack.mitre.org/techniques/T1510) had been seen within the Android/Clipper.C trojan. This sample had been detected by ESET in an application distributed through the Google Play Store targeting cryptocurrency wallet numbers.(Citation: ESET Clipboard Modification February 2019)
+
+KILL CHAIN PHASES
+impact (mitre-mobile-attack)
+
+PLATFORMS
+Android

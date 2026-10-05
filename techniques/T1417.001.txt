@@ -1,0 +1,25 @@
+T1417.001 | Keylogging | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may log user keystrokes to intercept credentials or other information from the user as the user types them.
+
+Some methods of keylogging include:
+
+* Masquerading as a legitimate third-party keyboard to record user keystrokes.(Citation: Zeltser-Keyboard) On both Android and iOS, users must explicitly authorize the use of third-party keyboard apps. Users should be advised to use extreme caution before granting this authorization when it is requested.
+* Abusing accessibility features. On Android, adversaries may abuse accessibility features to record keystrokes by registering an `AccessibilityService` class, overriding the `onAccessibilityEvent` method, and listening for the `AccessibilityEvent.TYPE_VIEW_TEXT_CHANGED` event type. The event object passed into the function will contain the data that the user typed. 
+*Additional methods of keylogging may be possible if root access is available.
+
+KILL CHAIN PHASES
+collection (mitre-mobile-attack)
+credential-access (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS
+
+MITIGATIONS
+- Enterprise Policy
+- User Guidance
+
+DETECTION STRATEGIES
+- DET0661 Detection of Keylogging

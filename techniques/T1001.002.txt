@@ -1,0 +1,19 @@
+T1001.002 | Steganography | domain: enterprise-attack | matrix: mitre-attack
+
+DESCRIPTION
+Adversaries may use steganographic techniques to hide command and control traffic to make detection efforts more difficult. Steganographic techniques can be used to hide data in digital messages that are transferred between systems. This hidden information can be used for command and control of compromised systems. In some cases, the passing of files embedded using steganography, such as image or document files, can be used for command and control.
+
+KILL CHAIN PHASES
+command-and-control (mitre-attack)
+
+PLATFORMS
+Linux
+macOS
+Windows
+ESXi
+
+MITIGATIONS
+- Network Intrusion Prevention
+
+DETECTION STRATEGIES
+- DET0235 Detecting Steganographic Command and Control via File + Network Correlation

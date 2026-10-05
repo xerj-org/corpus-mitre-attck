@@ -1,0 +1,15 @@
+T1400 | Modify System Partition | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1625.001 (System Runtime API Hijacking)
+
+DESCRIPTION
+If an adversary can escalate privileges, he or she may be able to use those privileges to place malicious code in the device system partition, where it may persist after device resets and may not be easily removed by the device user.
+
+Many Android devices provide the ability to unlock the bootloader for development purposes. An unlocked bootloader may provide the ability for an adversary to modify the system partition. Even if the bootloader is locked, it may be possible for an adversary to escalate privileges and then modify the system partition.
+
+KILL CHAIN PHASES
+defense-evasion (mitre-mobile-attack)
+persistence (mitre-mobile-attack)
+impact (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS

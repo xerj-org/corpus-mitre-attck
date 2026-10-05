@@ -1,0 +1,14 @@
+T1401 | Device Administrator Permissions | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1626.001 (Device Administrator Permissions)
+
+DESCRIPTION
+Adversaries may request device administrator permissions to perform malicious actions.
+
+By abusing the device administration API, adversaries can perform several nefarious actions, such as resetting the device’s password for [Device Lockout](https://attack.mitre.org/techniques/T1446), factory resetting the device to [Delete Device Data](https://attack.mitre.org/techniques/T1447) and any traces of the malware, disabling all of the device’s cameras, or make it more difficult to uninstall the app.(Citation: Android DeviceAdminInfo)
+
+Device administrators must be approved by the user at runtime, with a system popup showing which of the actions have been requested by the app. In conjunction with other techniques, such as [Input Injection](https://attack.mitre.org/techniques/T1516), an app can programmatically grant itself administrator permissions without any user input.
+
+KILL CHAIN PHASES
+privilege-escalation (mitre-mobile-attack)
+
+PLATFORMS
+Android

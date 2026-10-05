@@ -1,0 +1,22 @@
+T1069 | Permission Groups Discovery | domain: enterprise-attack | matrix: mitre-attack
+
+DESCRIPTION
+Adversaries may attempt to discover group and permission settings. This information can help adversaries determine which user accounts and groups are available, the membership of users in particular groups, and which users and groups have elevated permissions.
+
+Adversaries may attempt to discover group permission settings in many different ways. This data may provide the adversary with information about the compromised environment that can be used in follow-on activity and targeting.(Citation: CrowdStrike BloodHound April 2018)
+
+KILL CHAIN PHASES
+discovery (mitre-attack)
+
+PLATFORMS
+Containers
+IaaS
+Identity Provider
+Linux
+macOS
+Office Suite
+SaaS
+Windows
+
+DETECTION STRATEGIES
+- DET0179 Behavioral Detection of Permission Groups Discovery

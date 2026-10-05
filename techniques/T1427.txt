@@ -1,0 +1,10 @@
+T1427 | Attack PC via USB Connection | domain: mobile-attack | matrix: mitre-mobile-attack | status: deprecated
+
+DESCRIPTION
+With escalated privileges, an adversary could program the mobile device to impersonate USB devices such as input devices (keyboard and mouse), storage devices, and/or networking devices in order to attack a physically connected PC(Citation: Wang-ExploitingUSB)(Citation: ArsTechnica-PoisonTap) This technique has been demonstrated on Android. We are unaware of any demonstrations on iOS.
+
+KILL CHAIN PHASES
+lateral-movement (mitre-mobile-attack)
+
+PLATFORMS
+Android

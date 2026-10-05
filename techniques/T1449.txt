@@ -1,0 +1,11 @@
+T1449 | Exploit SS7 to Redirect Phone Calls/SMS | domain: mobile-attack | matrix: mitre-mobile-attack | status: deprecated
+
+DESCRIPTION
+An adversary could exploit signaling system vulnerabilities to redirect calls or text messages (SMS) to a phone number under the attacker's control. The adversary could then act as an adversary-in-the-middle to intercept or manipulate the communication. (Citation: Engel-SS7) (Citation: Engel-SS7-2008) (Citation: 3GPP-Security) (Citation: Positive-SS7) (Citation: CSRIC5-WG10-FinalReport) Interception of SMS messages could enable adversaries to obtain authentication codes used for multi-factor authentication(Citation: TheRegister-SS7).
+
+KILL CHAIN PHASES
+network-effects (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS

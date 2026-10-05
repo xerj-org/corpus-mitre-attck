@@ -1,0 +1,21 @@
+T1661 | Application Versioning | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+An adversary may push an update to a previously benign application to add malicious code. This can be accomplished by pushing an initially benign, functional application to a trusted application store, such as the Google Play Store or the Apple App Store. This allows the adversary to establish a trusted userbase that may grant permissions to the application prior to the introduction of malicious code. Then, an application update could be pushed to introduce malicious code.(Citation: android_app_breaking_bad)
+
+This technique could also be accomplished by compromising a developer’s account. This would allow an adversary to take advantage of an existing userbase without having to establish the userbase themselves.
+
+KILL CHAIN PHASES
+initial-access (mitre-mobile-attack)
+defense-evasion (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS
+
+MITIGATIONS
+- Enterprise Policy
+- Use Recent OS Version
+
+DETECTION STRATEGIES
+- DET0652 Detection of Application Versioning

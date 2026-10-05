@@ -1,0 +1,18 @@
+T1634 | Credentials from Password Store | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+Adversaries may search common password storage locations to obtain user credentials. Passwords can be stored in several places on a device, depending on the operating system or application holding the credentials. There are also specific applications that store passwords to make it easier for users to manage and maintain. Once credentials are obtained, they can be used to perform lateral movement and access restricted information.
+
+KILL CHAIN PHASES
+credential-access (mitre-mobile-attack)
+
+PLATFORMS
+iOS
+
+MITIGATIONS
+- Attestation
+- Deploy Compromised Device Detection Method
+- Security Updates
+
+DETECTION STRATEGIES
+- DET0633 Detection of Credentials from Password Store

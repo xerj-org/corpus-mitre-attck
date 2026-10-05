@@ -1,0 +1,11 @@
+T1466 | Downgrade to Insecure Protocols | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1638 (Adversary-in-the-Middle)
+
+DESCRIPTION
+An adversary could cause the mobile device to use less secure protocols, for example by jamming frequencies used by newer protocols such as LTE and only allowing older protocols such as GSM to communicate(Citation: NIST-SP800187). Use of less secure protocols may make communication easier to eavesdrop upon or manipulate.
+
+KILL CHAIN PHASES
+network-effects (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS

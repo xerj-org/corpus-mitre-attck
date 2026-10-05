@@ -1,0 +1,20 @@
+T0832 | Manipulation of View | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Adversaries may attempt to manipulate the information reported back to operators or controllers. This manipulation may be short term or sustained. During this time the process itself could be in a much different state than what is reported. (Citation: Corero) (Citation: Michael J. Assante and Robert M. Lee) (Citation: Tyson Macaulay) 
+
+Operators may be fooled into doing something that is harmful to the system in a loss of view situation. With a manipulated view into the systems, operators may issue inappropriate control sequences that introduce faults or catastrophic failures into the system. Business analysis systems can also be provided with inaccurate data leading to bad management decisions.
+
+KILL CHAIN PHASES
+impact (mitre-ics-attack)
+
+PLATFORMS
+None
+
+MITIGATIONS
+- Communication Authenticity
+- Data Backup
+- Out-of-Band Communications Channel
+
+DETECTION STRATEGIES
+- DET0785 Detection of Manipulation of View

@@ -1,0 +1,11 @@
+T0875 | Change Program State | domain: ics-attack | matrix: mitre-ics-attack | status: deprecated
+
+DESCRIPTION
+Adversaries may attempt to change the state of the current program on a control device. Program state changes may be used to allow for another program to take over control or be loaded onto the device.
+
+KILL CHAIN PHASES
+execution (mitre-ics-attack)
+impair-process-control (mitre-ics-attack)
+
+PLATFORMS
+Field Controller/RTU/PLC/IED

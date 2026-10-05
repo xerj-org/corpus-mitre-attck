@@ -1,0 +1,11 @@
+T1465 | Rogue Wi-Fi Access Points | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1638 (Adversary-in-the-Middle)
+
+DESCRIPTION
+An adversary could set up unauthorized Wi-Fi access points or compromise existing access points and, if the device connects to them, carry out network-based attacks such as eavesdropping on or modifying network communication(Citation: NIST-SP800153)(Citation: Kaspersky-DarkHotel).
+
+KILL CHAIN PHASES
+network-effects (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS

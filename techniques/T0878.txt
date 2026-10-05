@@ -1,0 +1,27 @@
+T0878 | Alarm Suppression | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Adversaries may target protection function alarms to prevent them from notifying operators of critical conditions. Alarm messages may be a part of an overall reporting system and of particular interest for adversaries. Disruption of the alarm system does not imply the disruption of the reporting system as a whole.
+
+A Secura presentation on targeting OT notes a dual fold goal for adversaries attempting alarm suppression: prevent outgoing alarms from being raised and prevent incoming alarms from being responded to. (Citation: Jos Wetzels, Marina Krotofil 2019) The method of suppression may greatly depend on the type of alarm in question:  
+
+* An alarm raised by a protocol message 
+* An alarm signaled with I/O 
+* An alarm bit set in a flag (and read) 
+
+In ICS environments, the adversary may have to suppress or contend with multiple alarms and/or alarm propagation to achieve a specific goal to evade detection or prevent intended responses from occurring. (Citation: Jos Wetzels, Marina Krotofil 2019)  Methods of suppression may involve tampering or altering device displays and logs, modifying in memory code to fixed values, or even tampering with assembly level instruction code.
+
+KILL CHAIN PHASES
+inhibit-response-function (mitre-ics-attack)
+
+PLATFORMS
+None
+
+MITIGATIONS
+- Network Allowlists
+- Network Segmentation
+- Out-of-Band Communications Channel
+- Static Network Configuration
+
+DETECTION STRATEGIES
+- DET0728 Detection of Alarm Suppression

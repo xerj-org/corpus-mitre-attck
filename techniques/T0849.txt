@@ -1,0 +1,20 @@
+T0849 | Masquerading | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Adversaries may use masquerading to disguise a malicious application or executable as another file, to avoid operator and engineer suspicion. Possible disguises of these masquerading files can include commonly found programs, expected vendor executables and configuration files, and other commonplace application and naming conventions. By impersonating expected and vendor-relevant files and applications, operators and engineers may not notice the presence of the underlying malicious content and possibly end up running those masquerading as legitimate functions. 
+
+Applications and other files commonly found on Windows systems or in engineering workstations have been impersonated before. This can be as simple as renaming a file to effectively disguise it in the ICS environment.
+
+KILL CHAIN PHASES
+evasion (mitre-ics-attack)
+
+PLATFORMS
+None
+
+MITIGATIONS
+- Code Signing
+- Execution Prevention
+- Restrict File and Directory Permissions
+
+DETECTION STRATEGIES
+- DET0725 Detection of Masquerading

@@ -1,0 +1,23 @@
+T0800 | Activate Firmware Update Mode | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Adversaries may activate firmware update mode on devices to prevent expected response functions from engaging in reaction to an emergency or process malfunction. For example, devices such as protection relays may have an operation mode designed for firmware installation. This mode may halt process monitoring and related functions to allow new firmware to be loaded. A device left in update mode may be placed in an inactive holding state if no firmware is provided to it. By entering and leaving a device in this mode, the adversary may deny its usual functionalities.
+
+KILL CHAIN PHASES
+inhibit-response-function (mitre-ics-attack)
+
+PLATFORMS
+None
+
+MITIGATIONS
+- Access Management
+- Authorization Enforcement
+- Communication Authenticity
+- Filter Network Traffic
+- Human User Authentication
+- Network Allowlists
+- Network Segmentation
+- Software Process and Device Authentication
+
+DETECTION STRATEGIES
+- DET0802 Detection of Activate Firmware Update Mode

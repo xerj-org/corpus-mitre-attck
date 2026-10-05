@@ -1,0 +1,20 @@
+T1025 | Data from Removable Media | domain: enterprise-attack | matrix: mitre-attack
+
+DESCRIPTION
+Adversaries may search connected removable media on computers they have compromised to find files of interest. Sensitive data can be collected from any removable media (optical disk drive, USB memory, etc.) connected to the compromised system prior to Exfiltration. Interactive command shells may be in use, and common functionality within [cmd](https://attack.mitre.org/software/S0106) may be used to gather information. 
+
+Some adversaries may also use [Automated Collection](https://attack.mitre.org/techniques/T1119) on removable media.
+
+KILL CHAIN PHASES
+collection (mitre-attack)
+
+PLATFORMS
+Linux
+macOS
+Windows
+
+MITIGATIONS
+- Data Loss Prevention
+
+DETECTION STRATEGIES
+- DET0511 Detection of Data Access and Collection from Removable Media

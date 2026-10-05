@@ -1,0 +1,1167 @@
+path	technique_id	name
+techniques/T0800.txt	T0800	Activate Firmware Update Mode
+techniques/T0801.txt	T0801	Monitor Process State
+techniques/T0802.txt	T0802	Automated Collection
+techniques/T0803.txt	T0803	Block Command Message
+techniques/T0804.txt	T0804	Block Reporting Message
+techniques/T0805.txt	T0805	Block Serial COM
+techniques/T0806.txt	T0806	Brute Force I/O
+techniques/T0807.txt	T0807	Command-Line Interface
+techniques/T0808.txt	T0808	Control Device Identification
+techniques/T0809.txt	T0809	Data Destruction
+techniques/T0810.txt	T0810	Data Historian Compromise
+techniques/T0811.txt	T0811	Data from Information Repositories
+techniques/T0812.txt	T0812	Default Credentials
+techniques/T0813.txt	T0813	Denial of Control
+techniques/T0814.txt	T0814	Denial of Service
+techniques/T0815.txt	T0815	Denial of View
+techniques/T0816.txt	T0816	Device Restart/Shutdown
+techniques/T0817.txt	T0817	Drive-by Compromise
+techniques/T0818.txt	T0818	Engineering Workstation Compromise
+techniques/T0819.txt	T0819	Exploit Public-Facing Application
+techniques/T0820.txt	T0820	Exploitation for Evasion
+techniques/T0821.txt	T0821	Modify Controller Tasking
+techniques/T0822.txt	T0822	External Remote Services
+techniques/T0823.txt	T0823	Graphical User Interface
+techniques/T0824.txt	T0824	I/O Module Discovery
+techniques/T0825.txt	T0825	Location Identification
+techniques/T0826.txt	T0826	Loss of Availability
+techniques/T0827.txt	T0827	Loss of Control
+techniques/T0828.txt	T0828	Loss of Productivity and Revenue
+techniques/T0829.txt	T0829	Loss of View
+techniques/T0830.txt	T0830	Adversary-in-the-Middle
+techniques/T0831.txt	T0831	Manipulation of Control
+techniques/T0832.txt	T0832	Manipulation of View
+techniques/T0833.txt	T0833	Modify Control Logic
+techniques/T0834.txt	T0834	Native API
+techniques/T0835.txt	T0835	Manipulate I/O Image
+techniques/T0836.txt	T0836	Modify Parameter
+techniques/T0837.txt	T0837	Loss of Protection
+techniques/T0838.txt	T0838	Modify Alarm Settings
+techniques/T0839.txt	T0839	Module Firmware
+techniques/T0840.txt	T0840	Network Connection Enumeration
+techniques/T0841.txt	T0841	Network Service Scanning
+techniques/T0842.txt	T0842	Network Sniffing
+techniques/T0843.txt	T0843	Program Download
+techniques/T0843.001.txt	T0843.001	Download All
+techniques/T0843.002.txt	T0843.002	Online Edit
+techniques/T0843.003.txt	T0843.003	Program Append
+techniques/T0844.txt	T0844	Program Organization Units
+techniques/T0845.txt	T0845	Program Upload
+techniques/T0846.txt	T0846	Remote System Discovery
+techniques/T0846.001.txt	T0846.001	Port Scan
+techniques/T0846.002.txt	T0846.002	Broadcast Discovery
+techniques/T0846.003.txt	T0846.003	Multicast Discovery
+techniques/T0847.txt	T0847	Replication Through Removable Media
+techniques/T0848.txt	T0848	Rogue Master
+techniques/T0849.txt	T0849	Masquerading
+techniques/T0850.txt	T0850	Role Identification
+techniques/T0851.txt	T0851	Rootkit
+techniques/T0852.txt	T0852	Screen Capture
+techniques/T0853.txt	T0853	Scripting
+techniques/T0854.txt	T0854	Serial Connection Enumeration
+techniques/T0855.txt	T0855	Unauthorized Command Message
+techniques/T0856.txt	T0856	Spoof Reporting Message
+techniques/T0857.txt	T0857	System Firmware
+techniques/T0858.txt	T0858	Change Operating Mode
+techniques/T0859.txt	T0859	Valid Accounts
+techniques/T0860.txt	T0860	Wireless Compromise
+techniques/T0861.txt	T0861	Point & Tag Identification
+techniques/T0862.txt	T0862	Supply Chain Compromise
+techniques/T0863.txt	T0863	User Execution
+techniques/T0864.txt	T0864	Transient Cyber Asset
+techniques/T0865.txt	T0865	Spearphishing Attachment
+techniques/T0866.txt	T0866	Exploitation of Remote Services
+techniques/T0867.txt	T0867	Lateral Tool Transfer
+techniques/T0868.txt	T0868	Detect Operating Mode
+techniques/T0869.txt	T0869	Standard Application Layer Protocol
+techniques/T0870.txt	T0870	Detect Program State
+techniques/T0871.txt	T0871	Execution through API
+techniques/T0872.txt	T0872	Indicator Removal on Host
+techniques/T0873.txt	T0873	Project File Infection
+techniques/T0873.001.txt	T0873.001	Siemens Project File Format
+techniques/T0874.txt	T0874	Hooking
+techniques/T0875.txt	T0875	Change Program State
+techniques/T0877.txt	T0877	I/O Image
+techniques/T0878.txt	T0878	Alarm Suppression
+techniques/T0879.txt	T0879	Damage to Property
+techniques/T0880.txt	T0880	Loss of Safety
+techniques/T0881.txt	T0881	Service Stop
+techniques/T0882.txt	T0882	Theft of Operational Information
+techniques/T0883.txt	T0883	Internet Accessible Device
+techniques/T0884.txt	T0884	Connection Proxy
+techniques/T0885.txt	T0885	Commonly Used Port
+techniques/T0886.txt	T0886	Remote Services
+techniques/T0887.txt	T0887	Wireless Sniffing
+techniques/T0888.txt	T0888	Remote System Information Discovery
+techniques/T0889.txt	T0889	Modify Program
+techniques/T0890.txt	T0890	Exploitation for Privilege Escalation
+techniques/T0891.txt	T0891	Hardcoded Credentials
+techniques/T0892.txt	T0892	Change Credential
+techniques/T0893.txt	T0893	Data from Local System
+techniques/T0894.txt	T0894	System Binary Proxy Execution
+techniques/T0895.txt	T0895	Autorun Image
+techniques/T1001.txt	T1001	Data Obfuscation
+techniques/T1001.001.txt	T1001.001	Junk Data
+techniques/T1001.002.txt	T1001.002	Steganography
+techniques/T1001.003.txt	T1001.003	Protocol or Service Impersonation
+techniques/T1002.txt	T1002	Data Compressed
+techniques/T1003.txt	T1003	OS Credential Dumping
+techniques/T1003.001.txt	T1003.001	LSASS Memory
+techniques/T1003.002.txt	T1003.002	Security Account Manager
+techniques/T1003.003.txt	T1003.003	NTDS
+techniques/T1003.004.txt	T1003.004	LSA Secrets
+techniques/T1003.005.txt	T1003.005	Cached Domain Credentials
+techniques/T1003.006.txt	T1003.006	DCSync
+techniques/T1003.007.txt	T1003.007	Proc Filesystem
+techniques/T1003.008.txt	T1003.008	/etc/passwd and /etc/shadow
+techniques/T1004.txt	T1004	Winlogon Helper DLL
+techniques/T1005.txt	T1005	Data from Local System
+techniques/T1006.txt	T1006	Direct Volume Access
+techniques/T1007.txt	T1007	System Service Discovery
+techniques/T1008.txt	T1008	Fallback Channels
+techniques/T1009.txt	T1009	Binary Padding
+techniques/T1010.txt	T1010	Application Window Discovery
+techniques/T1011.txt	T1011	Exfiltration Over Other Network Medium
+techniques/T1011.001.txt	T1011.001	Exfiltration Over Bluetooth
+techniques/T1012.txt	T1012	Query Registry
+techniques/T1013.txt	T1013	Port Monitors
+techniques/T1014.txt	T1014	Rootkit
+techniques/T1015.txt	T1015	Accessibility Features
+techniques/T1016.txt	T1016	System Network Configuration Discovery
+techniques/T1016.001.txt	T1016.001	Internet Connection Discovery
+techniques/T1016.002.txt	T1016.002	Wi-Fi Discovery
+techniques/T1017.txt	T1017	Application Deployment Software
+techniques/T1018.txt	T1018	Remote System Discovery
+techniques/T1019.txt	T1019	System Firmware
+techniques/T1020.txt	T1020	Automated Exfiltration
+techniques/T1020.001.txt	T1020.001	Traffic Duplication
+techniques/T1021.txt	T1021	Remote Services
+techniques/T1021.001.txt	T1021.001	Remote Desktop Protocol
+techniques/T1021.002.txt	T1021.002	SMB/Windows Admin Shares
+techniques/T1021.003.txt	T1021.003	Distributed Component Object Model
+techniques/T1021.004.txt	T1021.004	SSH
+techniques/T1021.005.txt	T1021.005	VNC
+techniques/T1021.006.txt	T1021.006	Windows Remote Management
+techniques/T1021.007.txt	T1021.007	Cloud Services
+techniques/T1021.008.txt	T1021.008	Direct Cloud VM Connections
+techniques/T1022.txt	T1022	Data Encrypted
+techniques/T1023.txt	T1023	Shortcut Modification
+techniques/T1024.txt	T1024	Custom Cryptographic Protocol
+techniques/T1025.txt	T1025	Data from Removable Media
+techniques/T1026.txt	T1026	Multiband Communication
+techniques/T1027.txt	T1027	Obfuscated Files or Information
+techniques/T1027.001.txt	T1027.001	Binary Padding
+techniques/T1027.002.txt	T1027.002	Software Packing
+techniques/T1027.003.txt	T1027.003	Steganography
+techniques/T1027.004.txt	T1027.004	Compile After Delivery
+techniques/T1027.005.txt	T1027.005	Indicator Removal from Tools
+techniques/T1027.006.txt	T1027.006	HTML Smuggling
+techniques/T1027.007.txt	T1027.007	Dynamic API Resolution
+techniques/T1027.008.txt	T1027.008	Stripped Payloads
+techniques/T1027.009.txt	T1027.009	Embedded Payloads
+techniques/T1027.010.txt	T1027.010	Command Obfuscation
+techniques/T1027.011.txt	T1027.011	Fileless Storage
+techniques/T1027.012.txt	T1027.012	LNK Icon Smuggling
+techniques/T1027.013.txt	T1027.013	Encrypted/Encoded File
+techniques/T1027.014.txt	T1027.014	Polymorphic Code
+techniques/T1027.015.txt	T1027.015	Compression
+techniques/T1027.016.txt	T1027.016	Junk Code Insertion
+techniques/T1027.017.txt	T1027.017	SVG Smuggling
+techniques/T1027.018.txt	T1027.018	Invisible Unicode
+techniques/T1028.txt	T1028	Windows Remote Management
+techniques/T1029.txt	T1029	Scheduled Transfer
+techniques/T1030.txt	T1030	Data Transfer Size Limits
+techniques/T1031.txt	T1031	Modify Existing Service
+techniques/T1032.txt	T1032	Standard Cryptographic Protocol
+techniques/T1033.txt	T1033	System Owner/User Discovery
+techniques/T1034.txt	T1034	Path Interception
+techniques/T1035.txt	T1035	Service Execution
+techniques/T1036.txt	T1036	Masquerading
+techniques/T1036.001.txt	T1036.001	Invalid Code Signature
+techniques/T1036.002.txt	T1036.002	Right-to-Left Override
+techniques/T1036.003.txt	T1036.003	Rename Legitimate Utilities
+techniques/T1036.004.txt	T1036.004	Masquerade Task or Service
+techniques/T1036.005.txt	T1036.005	Match Legitimate Resource Name or Location
+techniques/T1036.006.txt	T1036.006	Space after Filename
+techniques/T1036.007.txt	T1036.007	Double File Extension
+techniques/T1036.008.txt	T1036.008	Masquerade File Type
+techniques/T1036.009.txt	T1036.009	Break Process Trees
+techniques/T1036.010.txt	T1036.010	Masquerade Account Name
+techniques/T1036.011.txt	T1036.011	Overwrite Process Arguments
+techniques/T1036.012.txt	T1036.012	Browser Fingerprint
+techniques/T1037.txt	T1037	Boot or Logon Initialization Scripts
+techniques/T1037.001.txt	T1037.001	Logon Script (Windows)
+techniques/T1037.002.txt	T1037.002	Login Hook
+techniques/T1037.003.txt	T1037.003	Network Logon Script
+techniques/T1037.004.txt	T1037.004	RC Scripts
+techniques/T1037.005.txt	T1037.005	Startup Items
+techniques/T1038.txt	T1038	DLL Search Order Hijacking
+techniques/T1039.txt	T1039	Data from Network Shared Drive
+techniques/T1040.txt	T1040	Network Sniffing
+techniques/T1041.txt	T1041	Exfiltration Over C2 Channel
+techniques/T1042.txt	T1042	Change Default File Association
+techniques/T1043.txt	T1043	Commonly Used Port
+techniques/T1044.txt	T1044	File System Permissions Weakness
+techniques/T1045.txt	T1045	Software Packing
+techniques/T1046.txt	T1046	Network Service Discovery
+techniques/T1047.txt	T1047	Windows Management Instrumentation
+techniques/T1048.txt	T1048	Exfiltration Over Alternative Protocol
+techniques/T1048.001.txt	T1048.001	Exfiltration Over Symmetric Encrypted Non-C2 Protocol
+techniques/T1048.002.txt	T1048.002	Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
+techniques/T1048.003.txt	T1048.003	Exfiltration Over Unencrypted Non-C2 Protocol
+techniques/T1049.txt	T1049	System Network Connections Discovery
+techniques/T1050.txt	T1050	New Service
+techniques/T1051.txt	T1051	Shared Webroot
+techniques/T1052.txt	T1052	Exfiltration Over Physical Medium
+techniques/T1052.001.txt	T1052.001	Exfiltration over USB
+techniques/T1053.txt	T1053	Scheduled Task/Job
+techniques/T1053.001.txt	T1053.001	At (Linux)
+techniques/T1053.002.txt	T1053.002	At
+techniques/T1053.003.txt	T1053.003	Cron
+techniques/T1053.004.txt	T1053.004	Launchd
+techniques/T1053.005.txt	T1053.005	Scheduled Task
+techniques/T1053.006.txt	T1053.006	Systemd Timers
+techniques/T1053.007.txt	T1053.007	Container Orchestration Job
+techniques/T1054.txt	T1054	Indicator Blocking
+techniques/T1055.txt	T1055	Process Injection
+techniques/T1055.001.txt	T1055.001	Dynamic-link Library Injection
+techniques/T1055.002.txt	T1055.002	Portable Executable Injection
+techniques/T1055.003.txt	T1055.003	Thread Execution Hijacking
+techniques/T1055.004.txt	T1055.004	Asynchronous Procedure Call
+techniques/T1055.005.txt	T1055.005	Thread Local Storage
+techniques/T1055.008.txt	T1055.008	Ptrace System Calls
+techniques/T1055.009.txt	T1055.009	Proc Memory
+techniques/T1055.011.txt	T1055.011	Extra Window Memory Injection
+techniques/T1055.012.txt	T1055.012	Process Hollowing
+techniques/T1055.013.txt	T1055.013	Process Doppelgänging
+techniques/T1055.014.txt	T1055.014	VDSO Hijacking
+techniques/T1055.015.txt	T1055.015	ListPlanting
+techniques/T1056.txt	T1056	Input Capture
+techniques/T1056.001.txt	T1056.001	Keylogging
+techniques/T1056.002.txt	T1056.002	GUI Input Capture
+techniques/T1056.003.txt	T1056.003	Web Portal Capture
+techniques/T1056.004.txt	T1056.004	Credential API Hooking
+techniques/T1057.txt	T1057	Process Discovery
+techniques/T1058.txt	T1058	Service Registry Permissions Weakness
+techniques/T1059.txt	T1059	Command and Scripting Interpreter
+techniques/T1059.001.txt	T1059.001	PowerShell
+techniques/T1059.002.txt	T1059.002	AppleScript
+techniques/T1059.003.txt	T1059.003	Windows Command Shell
+techniques/T1059.004.txt	T1059.004	Unix Shell
+techniques/T1059.005.txt	T1059.005	Visual Basic
+techniques/T1059.006.txt	T1059.006	Python
+techniques/T1059.007.txt	T1059.007	JavaScript
+techniques/T1059.008.txt	T1059.008	Network Device CLI
+techniques/T1059.009.txt	T1059.009	Cloud API
+techniques/T1059.010.txt	T1059.010	AutoHotKey & AutoIT
+techniques/T1059.011.txt	T1059.011	Lua
+techniques/T1059.012.txt	T1059.012	Hypervisor CLI
+techniques/T1059.013.txt	T1059.013	Container CLI/API
+techniques/T1060.txt	T1060	Registry Run Keys / Startup Folder
+techniques/T1061.txt	T1061	Graphical User Interface
+techniques/T1062.txt	T1062	Hypervisor
+techniques/T1063.txt	T1063	Security Software Discovery
+techniques/T1064.txt	T1064	Scripting
+techniques/T1065.txt	T1065	Uncommonly Used Port
+techniques/T1066.txt	T1066	Indicator Removal from Tools
+techniques/T1067.txt	T1067	Bootkit
+techniques/T1068.txt	T1068	Exploitation for Privilege Escalation
+techniques/T1069.txt	T1069	Permission Groups Discovery
+techniques/T1069.001.txt	T1069.001	Local Groups
+techniques/T1069.002.txt	T1069.002	Domain Groups
+techniques/T1069.003.txt	T1069.003	Cloud Groups
+techniques/T1070.txt	T1070	Indicator Removal
+techniques/T1070.001.txt	T1070.001	Clear Windows Event Logs
+techniques/T1070.002.txt	T1070.002	Clear Linux or Mac System Logs
+techniques/T1070.003.txt	T1070.003	Clear Command History
+techniques/T1070.004.txt	T1070.004	File Deletion
+techniques/T1070.005.txt	T1070.005	Network Share Connection Removal
+techniques/T1070.006.txt	T1070.006	Timestomp
+techniques/T1070.007.txt	T1070.007	Clear Network Connection History and Configurations
+techniques/T1070.008.txt	T1070.008	Clear Mailbox Data
+techniques/T1070.009.txt	T1070.009	Clear Persistence
+techniques/T1070.010.txt	T1070.010	Relocate Malware
+techniques/T1071.txt	T1071	Application Layer Protocol
+techniques/T1071.001.txt	T1071.001	Web Protocols
+techniques/T1071.002.txt	T1071.002	File Transfer Protocols
+techniques/T1071.003.txt	T1071.003	Mail Protocols
+techniques/T1071.004.txt	T1071.004	DNS
+techniques/T1071.005.txt	T1071.005	Publish/Subscribe Protocols
+techniques/T1072.txt	T1072	Software Deployment Tools
+techniques/T1073.txt	T1073	DLL Side-Loading
+techniques/T1074.txt	T1074	Data Staged
+techniques/T1074.001.txt	T1074.001	Local Data Staging
+techniques/T1074.002.txt	T1074.002	Remote Data Staging
+techniques/T1075.txt	T1075	Pass the Hash
+techniques/T1076.txt	T1076	Remote Desktop Protocol
+techniques/T1077.txt	T1077	Windows Admin Shares
+techniques/T1078.txt	T1078	Valid Accounts
+techniques/T1078.001.txt	T1078.001	Default Accounts
+techniques/T1078.002.txt	T1078.002	Domain Accounts
+techniques/T1078.003.txt	T1078.003	Local Accounts
+techniques/T1078.004.txt	T1078.004	Cloud Accounts
+techniques/T1079.txt	T1079	Multilayer Encryption
+techniques/T1080.txt	T1080	Taint Shared Content
+techniques/T1081.txt	T1081	Credentials in Files
+techniques/T1082.txt	T1082	System Information Discovery
+techniques/T1083.txt	T1083	File and Directory Discovery
+techniques/T1084.txt	T1084	Windows Management Instrumentation Event Subscription
+techniques/T1085.txt	T1085	Rundll32
+techniques/T1086.txt	T1086	PowerShell
+techniques/T1087.txt	T1087	Account Discovery
+techniques/T1087.001.txt	T1087.001	Local Account
+techniques/T1087.002.txt	T1087.002	Domain Account
+techniques/T1087.003.txt	T1087.003	Email Account
+techniques/T1087.004.txt	T1087.004	Cloud Account
+techniques/T1088.txt	T1088	Bypass User Account Control
+techniques/T1089.txt	T1089	Disabling Security Tools
+techniques/T1090.txt	T1090	Proxy
+techniques/T1090.001.txt	T1090.001	Internal Proxy
+techniques/T1090.002.txt	T1090.002	External Proxy
+techniques/T1090.003.txt	T1090.003	Multi-hop Proxy
+techniques/T1090.004.txt	T1090.004	Domain Fronting
+techniques/T1091.txt	T1091	Replication Through Removable Media
+techniques/T1092.txt	T1092	Communication Through Removable Media
+techniques/T1093.txt	T1093	Process Hollowing
+techniques/T1094.txt	T1094	Custom Command and Control Protocol
+techniques/T1095.txt	T1095	Non-Application Layer Protocol
+techniques/T1096.txt	T1096	NTFS File Attributes
+techniques/T1097.txt	T1097	Pass the Ticket
+techniques/T1098.txt	T1098	Account Manipulation
+techniques/T1098.001.txt	T1098.001	Additional Cloud Credentials
+techniques/T1098.002.txt	T1098.002	Additional Email Delegate Permissions
+techniques/T1098.003.txt	T1098.003	Additional Cloud Roles
+techniques/T1098.004.txt	T1098.004	SSH Authorized Keys
+techniques/T1098.005.txt	T1098.005	Device Registration
+techniques/T1098.006.txt	T1098.006	Additional Container Cluster Roles
+techniques/T1098.007.txt	T1098.007	Additional Local or Domain Groups
+techniques/T1099.txt	T1099	Timestomp
+techniques/T1100.txt	T1100	Web Shell
+techniques/T1101.txt	T1101	Security Support Provider
+techniques/T1102.txt	T1102	Web Service
+techniques/T1102.001.txt	T1102.001	Dead Drop Resolver
+techniques/T1102.002.txt	T1102.002	Bidirectional Communication
+techniques/T1102.003.txt	T1102.003	One-Way Communication
+techniques/T1103.txt	T1103	AppInit DLLs
+techniques/T1104.txt	T1104	Multi-Stage Channels
+techniques/T1105.txt	T1105	Ingress Tool Transfer
+techniques/T1106.txt	T1106	Native API
+techniques/T1107.txt	T1107	File Deletion
+techniques/T1108.txt	T1108	Redundant Access
+techniques/T1109.txt	T1109	Component Firmware
+techniques/T1110.txt	T1110	Brute Force
+techniques/T1110.001.txt	T1110.001	Password Guessing
+techniques/T1110.002.txt	T1110.002	Password Cracking
+techniques/T1110.003.txt	T1110.003	Password Spraying
+techniques/T1110.004.txt	T1110.004	Credential Stuffing
+techniques/T1111.txt	T1111	Multi-Factor Authentication Interception
+techniques/T1112.txt	T1112	Modify Registry
+techniques/T1113.txt	T1113	Screen Capture
+techniques/T1114.txt	T1114	Email Collection
+techniques/T1114.001.txt	T1114.001	Local Email Collection
+techniques/T1114.002.txt	T1114.002	Remote Email Collection
+techniques/T1114.003.txt	T1114.003	Email Forwarding Rule
+techniques/T1115.txt	T1115	Clipboard Data
+techniques/T1116.txt	T1116	Code Signing
+techniques/T1117.txt	T1117	Regsvr32
+techniques/T1118.txt	T1118	InstallUtil
+techniques/T1119.txt	T1119	Automated Collection
+techniques/T1120.txt	T1120	Peripheral Device Discovery
+techniques/T1121.txt	T1121	Regsvcs/Regasm
+techniques/T1122.txt	T1122	Component Object Model Hijacking
+techniques/T1123.txt	T1123	Audio Capture
+techniques/T1124.txt	T1124	System Time Discovery
+techniques/T1125.txt	T1125	Video Capture
+techniques/T1126.txt	T1126	Network Share Connection Removal
+techniques/T1127.txt	T1127	Trusted Developer Utilities Proxy Execution
+techniques/T1127.001.txt	T1127.001	MSBuild
+techniques/T1127.002.txt	T1127.002	ClickOnce
+techniques/T1127.003.txt	T1127.003	JamPlus
+techniques/T1128.txt	T1128	Netsh Helper DLL
+techniques/T1129.txt	T1129	Shared Modules
+techniques/T1130.txt	T1130	Install Root Certificate
+techniques/T1131.txt	T1131	Authentication Package
+techniques/T1132.txt	T1132	Data Encoding
+techniques/T1132.001.txt	T1132.001	Standard Encoding
+techniques/T1132.002.txt	T1132.002	Non-Standard Encoding
+techniques/T1133.txt	T1133	External Remote Services
+techniques/T1134.txt	T1134	Access Token Manipulation
+techniques/T1134.001.txt	T1134.001	Token Impersonation/Theft
+techniques/T1134.002.txt	T1134.002	Create Process with Token
+techniques/T1134.003.txt	T1134.003	Make and Impersonate Token
+techniques/T1134.004.txt	T1134.004	Parent PID Spoofing
+techniques/T1134.005.txt	T1134.005	SID-History Injection
+techniques/T1135.txt	T1135	Network Share Discovery
+techniques/T1136.txt	T1136	Create Account
+techniques/T1136.001.txt	T1136.001	Local Account
+techniques/T1136.002.txt	T1136.002	Domain Account
+techniques/T1136.003.txt	T1136.003	Cloud Account
+techniques/T1137.txt	T1137	Office Application Startup
+techniques/T1137.001.txt	T1137.001	Office Template Macros
+techniques/T1137.002.txt	T1137.002	Office Test
+techniques/T1137.003.txt	T1137.003	Outlook Forms
+techniques/T1137.004.txt	T1137.004	Outlook Home Page
+techniques/T1137.005.txt	T1137.005	Outlook Rules
+techniques/T1137.006.txt	T1137.006	Add-ins
+techniques/T1138.txt	T1138	Application Shimming
+techniques/T1139.txt	T1139	Bash History
+techniques/T1140.txt	T1140	Deobfuscate/Decode Files or Information
+techniques/T1141.txt	T1141	Input Prompt
+techniques/T1142.txt	T1142	Keychain
+techniques/T1143.txt	T1143	Hidden Window
+techniques/T1144.txt	T1144	Gatekeeper Bypass
+techniques/T1145.txt	T1145	Private Keys
+techniques/T1146.txt	T1146	Clear Command History
+techniques/T1147.txt	T1147	Hidden Users
+techniques/T1148.txt	T1148	HISTCONTROL
+techniques/T1149.txt	T1149	LC_MAIN Hijacking
+techniques/T1150.txt	T1150	Plist Modification
+techniques/T1151.txt	T1151	Space after Filename
+techniques/T1152.txt	T1152	Launchctl
+techniques/T1153.txt	T1153	Source
+techniques/T1154.txt	T1154	Trap
+techniques/T1155.txt	T1155	AppleScript
+techniques/T1156.txt	T1156	Malicious Shell Modification
+techniques/T1157.txt	T1157	Dylib Hijacking
+techniques/T1158.txt	T1158	Hidden Files and Directories
+techniques/T1159.txt	T1159	Launch Agent
+techniques/T1160.txt	T1160	Launch Daemon
+techniques/T1161.txt	T1161	LC_LOAD_DYLIB Addition
+techniques/T1162.txt	T1162	Login Item
+techniques/T1163.txt	T1163	Rc.common
+techniques/T1164.txt	T1164	Re-opened Applications
+techniques/T1165.txt	T1165	Startup Items
+techniques/T1166.txt	T1166	Setuid and Setgid
+techniques/T1167.txt	T1167	Securityd Memory
+techniques/T1168.txt	T1168	Local Job Scheduling
+techniques/T1169.txt	T1169	Sudo
+techniques/T1170.txt	T1170	Mshta
+techniques/T1171.txt	T1171	LLMNR/NBT-NS Poisoning and Relay
+techniques/T1172.txt	T1172	Domain Fronting
+techniques/T1173.txt	T1173	Dynamic Data Exchange
+techniques/T1174.txt	T1174	Password Filter DLL
+techniques/T1175.txt	T1175	Component Object Model and Distributed COM
+techniques/T1176.txt	T1176	Software Extensions
+techniques/T1176.001.txt	T1176.001	Browser Extensions
+techniques/T1176.002.txt	T1176.002	IDE Extensions
+techniques/T1177.txt	T1177	LSASS Driver
+techniques/T1178.txt	T1178	SID-History Injection
+techniques/T1179.txt	T1179	Hooking
+techniques/T1180.txt	T1180	Screensaver
+techniques/T1181.txt	T1181	Extra Window Memory Injection
+techniques/T1182.txt	T1182	AppCert DLLs
+techniques/T1183.txt	T1183	Image File Execution Options Injection
+techniques/T1184.txt	T1184	SSH Hijacking
+techniques/T1185.txt	T1185	Browser Session Hijacking
+techniques/T1186.txt	T1186	Process Doppelgänging
+techniques/T1187.txt	T1187	Forced Authentication
+techniques/T1188.txt	T1188	Multi-hop Proxy
+techniques/T1189.txt	T1189	Drive-by Compromise
+techniques/T1190.txt	T1190	Exploit Public-Facing Application
+techniques/T1191.txt	T1191	CMSTP
+techniques/T1192.txt	T1192	Spearphishing Link
+techniques/T1193.txt	T1193	Spearphishing Attachment
+techniques/T1194.txt	T1194	Spearphishing via Service
+techniques/T1195.txt	T1195	Supply Chain Compromise
+techniques/T1195.001.txt	T1195.001	Compromise Software Dependencies and Development Tools
+techniques/T1195.002.txt	T1195.002	Compromise Software Supply Chain
+techniques/T1195.003.txt	T1195.003	Compromise Hardware Supply Chain
+techniques/T1196.txt	T1196	Control Panel Items
+techniques/T1197.txt	T1197	BITS Jobs
+techniques/T1198.txt	T1198	SIP and Trust Provider Hijacking
+techniques/T1199.txt	T1199	Trusted Relationship
+techniques/T1200.txt	T1200	Hardware Additions
+techniques/T1201.txt	T1201	Password Policy Discovery
+techniques/T1202.txt	T1202	Indirect Command Execution
+techniques/T1203.txt	T1203	Exploitation for Client Execution
+techniques/T1204.txt	T1204	User Execution
+techniques/T1204.001.txt	T1204.001	Malicious Link
+techniques/T1204.002.txt	T1204.002	Malicious File
+techniques/T1204.003.txt	T1204.003	Malicious Image
+techniques/T1204.004.txt	T1204.004	Malicious Copy and Paste
+techniques/T1204.005.txt	T1204.005	Malicious Library
+techniques/T1205.txt	T1205	Traffic Signaling
+techniques/T1205.001.txt	T1205.001	Port Knocking
+techniques/T1205.002.txt	T1205.002	Socket Filters
+techniques/T1206.txt	T1206	Sudo Caching
+techniques/T1207.txt	T1207	Rogue Domain Controller
+techniques/T1208.txt	T1208	Kerberoasting
+techniques/T1209.txt	T1209	Time Providers
+techniques/T1210.txt	T1210	Exploitation of Remote Services
+techniques/T1211.txt	T1211	Exploitation for Stealth
+techniques/T1212.txt	T1212	Exploitation for Credential Access
+techniques/T1213.txt	T1213	Data from Information Repositories
+techniques/T1213.001.txt	T1213.001	Confluence
+techniques/T1213.002.txt	T1213.002	Sharepoint
+techniques/T1213.003.txt	T1213.003	Code Repositories
+techniques/T1213.004.txt	T1213.004	Customer Relationship Management Software
+techniques/T1213.005.txt	T1213.005	Messaging Applications
+techniques/T1213.006.txt	T1213.006	Databases
+techniques/T1214.txt	T1214	Credentials in Registry
+techniques/T1215.txt	T1215	Kernel Modules and Extensions
+techniques/T1216.txt	T1216	System Script Proxy Execution
+techniques/T1216.001.txt	T1216.001	PubPrn
+techniques/T1216.002.txt	T1216.002	SyncAppvPublishingServer
+techniques/T1217.txt	T1217	Browser Information Discovery
+techniques/T1218.txt	T1218	System Binary Proxy Execution
+techniques/T1218.001.txt	T1218.001	Compiled HTML File
+techniques/T1218.002.txt	T1218.002	Control Panel
+techniques/T1218.003.txt	T1218.003	CMSTP
+techniques/T1218.004.txt	T1218.004	InstallUtil
+techniques/T1218.005.txt	T1218.005	Mshta
+techniques/T1218.007.txt	T1218.007	Msiexec
+techniques/T1218.008.txt	T1218.008	Odbcconf
+techniques/T1218.009.txt	T1218.009	Regsvcs/Regasm
+techniques/T1218.010.txt	T1218.010	Regsvr32
+techniques/T1218.011.txt	T1218.011	Rundll32
+techniques/T1218.012.txt	T1218.012	Verclsid
+techniques/T1218.013.txt	T1218.013	Mavinject
+techniques/T1218.014.txt	T1218.014	MMC
+techniques/T1218.015.txt	T1218.015	Electron Applications
+techniques/T1219.txt	T1219	Remote Access Tools
+techniques/T1219.001.txt	T1219.001	IDE Tunneling
+techniques/T1219.002.txt	T1219.002	Remote Desktop Software
+techniques/T1219.003.txt	T1219.003	Remote Access Hardware
+techniques/T1220.txt	T1220	XSL Script Processing
+techniques/T1221.txt	T1221	Template Injection
+techniques/T1222.txt	T1222	File and Directory Permissions Modification
+techniques/T1222.001.txt	T1222.001	Windows Permissions
+techniques/T1222.002.txt	T1222.002	Linux and Mac Permissions
+techniques/T1223.txt	T1223	Compiled HTML File
+techniques/T1398.txt	T1398	Boot or Logon Initialization Scripts
+techniques/T1399.txt	T1399	Modify Trusted Execution Environment
+techniques/T1400.txt	T1400	Modify System Partition
+techniques/T1401.txt	T1401	Device Administrator Permissions
+techniques/T1402.txt	T1402	Broadcast Receivers
+techniques/T1403.txt	T1403	Modify Cached Executable Code
+techniques/T1404.txt	T1404	Exploitation for Privilege Escalation
+techniques/T1405.txt	T1405	Exploit TEE Vulnerability
+techniques/T1406.txt	T1406	Obfuscated Files or Information
+techniques/T1406.001.txt	T1406.001	Steganography
+techniques/T1406.002.txt	T1406.002	Software Packing
+techniques/T1407.txt	T1407	Download New Code at Runtime
+techniques/T1408.txt	T1408	Disguise Root/Jailbreak Indicators
+techniques/T1409.txt	T1409	Stored Application Data
+techniques/T1410.txt	T1410	Network Traffic Capture or Redirection
+techniques/T1411.txt	T1411	Input Prompt
+techniques/T1412.txt	T1412	Capture SMS Messages
+techniques/T1413.txt	T1413	Access Sensitive Data in Device Logs
+techniques/T1414.txt	T1414	Clipboard Data
+techniques/T1415.txt	T1415	URL Scheme Hijacking
+techniques/T1416.txt	T1416	URI Hijacking
+techniques/T1417.txt	T1417	Input Capture
+techniques/T1417.001.txt	T1417.001	Keylogging
+techniques/T1417.002.txt	T1417.002	GUI Input Capture
+techniques/T1418.txt	T1418	Software Discovery
+techniques/T1418.001.txt	T1418.001	Security Software Discovery
+techniques/T1419.txt	T1419	Device Type Discovery
+techniques/T1420.txt	T1420	File and Directory Discovery
+techniques/T1421.txt	T1421	System Network Connections Discovery
+techniques/T1422.txt	T1422	System Network Configuration Discovery
+techniques/T1422.001.txt	T1422.001	Internet Connection Discovery
+techniques/T1422.002.txt	T1422.002	Wi-Fi Discovery
+techniques/T1423.txt	T1423	Network Service Scanning
+techniques/T1424.txt	T1424	Process Discovery
+techniques/T1425.txt	T1425	Insecure Third-Party Libraries
+techniques/T1426.txt	T1426	System Information Discovery
+techniques/T1427.txt	T1427	Attack PC via USB Connection
+techniques/T1428.txt	T1428	Exploitation of Remote Services
+techniques/T1429.txt	T1429	Audio Capture
+techniques/T1430.txt	T1430	Location Tracking
+techniques/T1430.001.txt	T1430.001	Remote Device Management Services
+techniques/T1430.002.txt	T1430.002	Impersonate SS7 Nodes
+techniques/T1431.txt	T1431	App Delivered via Web Download
+techniques/T1432.txt	T1432	Access Contact List
+techniques/T1433.txt	T1433	Access Call Log
+techniques/T1434.txt	T1434	App Delivered via Email Attachment
+techniques/T1435.txt	T1435	Access Calendar Entries
+techniques/T1436.txt	T1436	Commonly Used Port
+techniques/T1437.txt	T1437	Application Layer Protocol
+techniques/T1437.001.txt	T1437.001	Web Protocols
+techniques/T1438.txt	T1438	Exfiltration Over Other Network Medium
+techniques/T1439.txt	T1439	Eavesdrop on Insecure Network Communication
+techniques/T1440.txt	T1440	Detect App Analysis Environment
+techniques/T1441.txt	T1441	Stolen Developer Credentials or Signing Keys
+techniques/T1442.txt	T1442	Fake Developer Accounts
+techniques/T1443.txt	T1443	Remotely Install Application
+techniques/T1444.txt	T1444	Masquerade as Legitimate Application
+techniques/T1445.txt	T1445	Abuse of iOS Enterprise App Signing Key
+techniques/T1446.txt	T1446	Device Lockout
+techniques/T1447.txt	T1447	Delete Device Data
+techniques/T1448.txt	T1448	Carrier Billing Fraud
+techniques/T1449.txt	T1449	Exploit SS7 to Redirect Phone Calls/SMS
+techniques/T1450.txt	T1450	Exploit SS7 to Track Device Location
+techniques/T1451.txt	T1451	SIM Card Swap
+techniques/T1452.txt	T1452	Manipulate App Store Rankings or Ratings
+techniques/T1453.txt	T1453	Abuse Accessibility Features
+techniques/T1454.txt	T1454	Malicious SMS Message
+techniques/T1455.txt	T1455	Exploit Baseband Vulnerability
+techniques/T1456.txt	T1456	Drive-By Compromise
+techniques/T1457.txt	T1457	Malicious Media Content
+techniques/T1458.txt	T1458	Replication Through Removable Media
+techniques/T1459.txt	T1459	Device Unlock Code Guessing or Brute Force
+techniques/T1460.txt	T1460	Biometric Spoofing
+techniques/T1461.txt	T1461	Lockscreen Bypass
+techniques/T1462.txt	T1462	Malicious Software Development Tools
+techniques/T1463.txt	T1463	Manipulate Device Communication
+techniques/T1464.txt	T1464	Network Denial of Service
+techniques/T1465.txt	T1465	Rogue Wi-Fi Access Points
+techniques/T1466.txt	T1466	Downgrade to Insecure Protocols
+techniques/T1467.txt	T1467	Rogue Cellular Base Station
+techniques/T1468.txt	T1468	Remotely Track Device Without Authorization
+techniques/T1469.txt	T1469	Remotely Wipe Data Without Authorization
+techniques/T1470.txt	T1470	Obtain Device Cloud Backups
+techniques/T1471.txt	T1471	Data Encrypted for Impact
+techniques/T1472.txt	T1472	Generate Fraudulent Advertising Revenue
+techniques/T1473.txt	T1473	Malicious or Vulnerable Built-in Device Functionality
+techniques/T1474.txt	T1474	Supply Chain Compromise
+techniques/T1474.001.txt	T1474.001	Compromise Software Dependencies and Development Tools
+techniques/T1474.002.txt	T1474.002	Compromise Hardware Supply Chain
+techniques/T1474.003.txt	T1474.003	Compromise Software Supply Chain
+techniques/T1475.txt	T1475	Deliver Malicious App via Authorized App Store
+techniques/T1476.txt	T1476	Deliver Malicious App via Other Means
+techniques/T1477.txt	T1477	Exploit via Radio Interfaces
+techniques/T1478.txt	T1478	Install Insecure or Malicious Configuration
+techniques/T1480.txt	T1480	Execution Guardrails
+techniques/T1480.001.txt	T1480.001	Environmental Keying
+techniques/T1480.002.txt	T1480.002	Mutual Exclusion
+techniques/T1481.txt	T1481	Web Service
+techniques/T1481.001.txt	T1481.001	Dead Drop Resolver
+techniques/T1481.002.txt	T1481.002	Bidirectional Communication
+techniques/T1481.003.txt	T1481.003	One-Way Communication
+techniques/T1482.txt	T1482	Domain Trust Discovery
+techniques/T1483.txt	T1483	Domain Generation Algorithms
+techniques/T1484.txt	T1484	Domain or Tenant Policy Modification
+techniques/T1484.001.txt	T1484.001	Group Policy Modification
+techniques/T1484.002.txt	T1484.002	Trust Modification
+techniques/T1485.txt	T1485	Data Destruction
+techniques/T1485.001.txt	T1485.001	Lifecycle-Triggered Deletion
+techniques/T1486.txt	T1486	Data Encrypted for Impact
+techniques/T1487.txt	T1487	Disk Structure Wipe
+techniques/T1488.txt	T1488	Disk Content Wipe
+techniques/T1489.txt	T1489	Service Stop
+techniques/T1490.txt	T1490	Inhibit System Recovery
+techniques/T1491.txt	T1491	Defacement
+techniques/T1491.001.txt	T1491.001	Internal Defacement
+techniques/T1491.002.txt	T1491.002	External Defacement
+techniques/T1492.txt	T1492	Stored Data Manipulation
+techniques/T1493.txt	T1493	Transmitted Data Manipulation
+techniques/T1494.txt	T1494	Runtime Data Manipulation
+techniques/T1495.txt	T1495	Firmware Corruption
+techniques/T1496.txt	T1496	Resource Hijacking
+techniques/T1496.001.txt	T1496.001	Compute Hijacking
+techniques/T1496.002.txt	T1496.002	Bandwidth Hijacking
+techniques/T1496.003.txt	T1496.003	SMS Pumping
+techniques/T1496.004.txt	T1496.004	Cloud Service Hijacking
+techniques/T1497.txt	T1497	Virtualization/Sandbox Evasion
+techniques/T1497.001.txt	T1497.001	System Checks
+techniques/T1497.002.txt	T1497.002	User Activity Based Checks
+techniques/T1497.003.txt	T1497.003	Time Based Checks
+techniques/T1498.txt	T1498	Network Denial of Service
+techniques/T1498.001.txt	T1498.001	Direct Network Flood
+techniques/T1498.002.txt	T1498.002	Reflection Amplification
+techniques/T1499.txt	T1499	Endpoint Denial of Service
+techniques/T1499.001.txt	T1499.001	OS Exhaustion Flood
+techniques/T1499.002.txt	T1499.002	Service Exhaustion Flood
+techniques/T1499.003.txt	T1499.003	Application Exhaustion Flood
+techniques/T1499.004.txt	T1499.004	Application or System Exploitation
+techniques/T1500.txt	T1500	Compile After Delivery
+techniques/T1501.txt	T1501	Systemd Service
+techniques/T1502.txt	T1502	Parent PID Spoofing
+techniques/T1503.txt	T1503	Credentials from Web Browsers
+techniques/T1504.txt	T1504	PowerShell Profile
+techniques/T1505.txt	T1505	Server Software Component
+techniques/T1505.001.txt	T1505.001	SQL Stored Procedures
+techniques/T1505.002.txt	T1505.002	Transport Agent
+techniques/T1505.003.txt	T1505.003	Web Shell
+techniques/T1505.004.txt	T1505.004	IIS Components
+techniques/T1505.005.txt	T1505.005	Terminal Services DLL
+techniques/T1505.006.txt	T1505.006	vSphere Installation Bundles
+techniques/T1506.txt	T1506	Web Session Cookie
+techniques/T1507.txt	T1507	Network Information Discovery
+techniques/T1508.txt	T1508	Suppress Application Icon
+techniques/T1509.txt	T1509	Non-Standard Port
+techniques/T1510.txt	T1510	Clipboard Modification
+techniques/T1512.txt	T1512	Video Capture
+techniques/T1513.txt	T1513	Screen Capture
+techniques/T1514.txt	T1514	Elevated Execution with Prompt
+techniques/T1516.txt	T1516	Input Injection
+techniques/T1517.txt	T1517	Access Notifications
+techniques/T1518.txt	T1518	Software Discovery
+techniques/T1518.001.txt	T1518.001	Security Software Discovery
+techniques/T1518.002.txt	T1518.002	Backup Software Discovery
+techniques/T1519.txt	T1519	Emond
+techniques/T1520.txt	T1520	Domain Generation Algorithms
+techniques/T1521.txt	T1521	Encrypted Channel
+techniques/T1521.001.txt	T1521.001	Symmetric Cryptography
+techniques/T1521.002.txt	T1521.002	Asymmetric Cryptography
+techniques/T1521.003.txt	T1521.003	SSL Pinning
+techniques/T1522.txt	T1522	Cloud Instance Metadata API
+techniques/T1523.txt	T1523	Evade Analysis Environment
+techniques/T1525.txt	T1525	Implant Internal Image
+techniques/T1526.txt	T1526	Cloud Service Discovery
+techniques/T1527.txt	T1527	Application Access Token
+techniques/T1528.txt	T1528	Steal Application Access Token
+techniques/T1529.txt	T1529	System Shutdown/Reboot
+techniques/T1530.txt	T1530	Data from Cloud Storage
+techniques/T1531.txt	T1531	Account Access Removal
+techniques/T1532.txt	T1532	Archive Collected Data
+techniques/T1533.txt	T1533	Data from Local System
+techniques/T1534.txt	T1534	Internal Spearphishing
+techniques/T1535.txt	T1535	Unused/Unsupported Cloud Regions
+techniques/T1536.txt	T1536	Revert Cloud Instance
+techniques/T1537.txt	T1537	Transfer Data to Cloud Account
+techniques/T1538.txt	T1538	Cloud Service Dashboard
+techniques/T1539.txt	T1539	Steal Web Session Cookie
+techniques/T1540.txt	T1540	Code Injection
+techniques/T1541.txt	T1541	Foreground Persistence
+techniques/T1542.txt	T1542	Pre-OS Boot
+techniques/T1542.001.txt	T1542.001	System Firmware
+techniques/T1542.002.txt	T1542.002	Component Firmware
+techniques/T1542.003.txt	T1542.003	Bootkit
+techniques/T1542.004.txt	T1542.004	ROMMONkit
+techniques/T1542.005.txt	T1542.005	TFTP Boot
+techniques/T1543.txt	T1543	Create or Modify System Process
+techniques/T1543.001.txt	T1543.001	Launch Agent
+techniques/T1543.002.txt	T1543.002	Systemd Service
+techniques/T1543.003.txt	T1543.003	Windows Service
+techniques/T1543.004.txt	T1543.004	Launch Daemon
+techniques/T1543.005.txt	T1543.005	Container Service
+techniques/T1544.txt	T1544	Ingress Tool Transfer
+techniques/T1546.txt	T1546	Event Triggered Execution
+techniques/T1546.001.txt	T1546.001	Change Default File Association
+techniques/T1546.002.txt	T1546.002	Screensaver
+techniques/T1546.003.txt	T1546.003	Windows Management Instrumentation Event Subscription
+techniques/T1546.004.txt	T1546.004	Unix Shell Configuration Modification
+techniques/T1546.005.txt	T1546.005	Trap
+techniques/T1546.006.txt	T1546.006	LC_LOAD_DYLIB Addition
+techniques/T1546.007.txt	T1546.007	Netsh Helper DLL
+techniques/T1546.008.txt	T1546.008	Accessibility Features
+techniques/T1546.009.txt	T1546.009	AppCert DLLs
+techniques/T1546.010.txt	T1546.010	AppInit DLLs
+techniques/T1546.011.txt	T1546.011	Application Shimming
+techniques/T1546.012.txt	T1546.012	Image File Execution Options Injection
+techniques/T1546.013.txt	T1546.013	PowerShell Profile
+techniques/T1546.014.txt	T1546.014	Emond
+techniques/T1546.015.txt	T1546.015	Component Object Model Hijacking
+techniques/T1546.016.txt	T1546.016	Installer Packages
+techniques/T1546.017.txt	T1546.017	Udev Rules
+techniques/T1546.018.txt	T1546.018	Python Startup Hooks
+techniques/T1547.txt	T1547	Boot or Logon Autostart Execution
+techniques/T1547.001.txt	T1547.001	Registry Run Keys / Startup Folder
+techniques/T1547.002.txt	T1547.002	Authentication Package
+techniques/T1547.003.txt	T1547.003	Time Providers
+techniques/T1547.004.txt	T1547.004	Winlogon Helper DLL
+techniques/T1547.005.txt	T1547.005	Security Support Provider
+techniques/T1547.006.txt	T1547.006	Kernel Modules and Extensions
+techniques/T1547.007.txt	T1547.007	Re-opened Applications
+techniques/T1547.008.txt	T1547.008	LSASS Driver
+techniques/T1547.009.txt	T1547.009	Shortcut Modification
+techniques/T1547.010.txt	T1547.010	Port Monitors
+techniques/T1547.011.txt	T1547.011	Plist Modification
+techniques/T1547.012.txt	T1547.012	Print Processors
+techniques/T1547.013.txt	T1547.013	XDG Autostart Entries
+techniques/T1547.014.txt	T1547.014	Active Setup
+techniques/T1547.015.txt	T1547.015	Login Items
+techniques/T1548.txt	T1548	Abuse Elevation Control Mechanism
+techniques/T1548.001.txt	T1548.001	Setuid and Setgid
+techniques/T1548.002.txt	T1548.002	Bypass User Account Control
+techniques/T1548.003.txt	T1548.003	Sudo and Sudo Caching
+techniques/T1548.004.txt	T1548.004	Elevated Execution with Prompt
+techniques/T1548.005.txt	T1548.005	Temporary Elevated Cloud Access
+techniques/T1548.006.txt	T1548.006	TCC Manipulation
+techniques/T1550.txt	T1550	Use Alternate Authentication Material
+techniques/T1550.001.txt	T1550.001	Application Access Token
+techniques/T1550.002.txt	T1550.002	Pass the Hash
+techniques/T1550.003.txt	T1550.003	Pass the Ticket
+techniques/T1550.004.txt	T1550.004	Web Session Cookie
+techniques/T1552.txt	T1552	Unsecured Credentials
+techniques/T1552.001.txt	T1552.001	Credentials In Files
+techniques/T1552.002.txt	T1552.002	Credentials in Registry
+techniques/T1552.003.txt	T1552.003	Shell History
+techniques/T1552.004.txt	T1552.004	Private Keys
+techniques/T1552.005.txt	T1552.005	Cloud Instance Metadata API
+techniques/T1552.006.txt	T1552.006	Group Policy Preferences
+techniques/T1552.007.txt	T1552.007	Container API
+techniques/T1552.008.txt	T1552.008	Chat Messages
+techniques/T1553.txt	T1553	Subvert Trust Controls
+techniques/T1553.001.txt	T1553.001	Gatekeeper Bypass
+techniques/T1553.002.txt	T1553.002	Code Signing
+techniques/T1553.003.txt	T1553.003	SIP and Trust Provider Hijacking
+techniques/T1553.004.txt	T1553.004	Install Root Certificate
+techniques/T1553.005.txt	T1553.005	Mark-of-the-Web Bypass
+techniques/T1553.006.txt	T1553.006	Code Signing Policy Modification
+techniques/T1554.txt	T1554	Compromise Host Software Binary
+techniques/T1555.txt	T1555	Credentials from Password Stores
+techniques/T1555.001.txt	T1555.001	Keychain
+techniques/T1555.002.txt	T1555.002	Securityd Memory
+techniques/T1555.003.txt	T1555.003	Credentials from Web Browsers
+techniques/T1555.004.txt	T1555.004	Windows Credential Manager
+techniques/T1555.005.txt	T1555.005	Password Managers
+techniques/T1555.006.txt	T1555.006	Cloud Secrets Management Stores
+techniques/T1556.txt	T1556	Modify Authentication Process
+techniques/T1556.001.txt	T1556.001	Domain Controller Authentication
+techniques/T1556.002.txt	T1556.002	Password Filter DLL
+techniques/T1556.003.txt	T1556.003	Pluggable Authentication Modules
+techniques/T1556.004.txt	T1556.004	Network Device Authentication
+techniques/T1556.005.txt	T1556.005	Reversible Encryption
+techniques/T1556.006.txt	T1556.006	Multi-Factor Authentication
+techniques/T1556.007.txt	T1556.007	Hybrid Identity
+techniques/T1556.008.txt	T1556.008	Network Provider DLL
+techniques/T1556.009.txt	T1556.009	Conditional Access Policies
+techniques/T1557.txt	T1557	Adversary-in-the-Middle
+techniques/T1557.001.txt	T1557.001	Name Resolution Poisoning and SMB Relay
+techniques/T1557.002.txt	T1557.002	ARP Cache Poisoning
+techniques/T1557.003.txt	T1557.003	DHCP Spoofing
+techniques/T1557.004.txt	T1557.004	Evil Twin
+techniques/T1558.txt	T1558	Steal or Forge Kerberos Tickets
+techniques/T1558.001.txt	T1558.001	Golden Ticket
+techniques/T1558.002.txt	T1558.002	Silver Ticket
+techniques/T1558.003.txt	T1558.003	Kerberoasting
+techniques/T1558.004.txt	T1558.004	AS-REP Roasting
+techniques/T1558.005.txt	T1558.005	Ccache Files
+techniques/T1559.txt	T1559	Inter-Process Communication
+techniques/T1559.001.txt	T1559.001	Component Object Model
+techniques/T1559.002.txt	T1559.002	Dynamic Data Exchange
+techniques/T1559.003.txt	T1559.003	XPC Services
+techniques/T1560.txt	T1560	Archive Collected Data
+techniques/T1560.001.txt	T1560.001	Archive via Utility
+techniques/T1560.002.txt	T1560.002	Archive via Library
+techniques/T1560.003.txt	T1560.003	Archive via Custom Method
+techniques/T1561.txt	T1561	Disk Wipe
+techniques/T1561.001.txt	T1561.001	Disk Content Wipe
+techniques/T1561.002.txt	T1561.002	Disk Structure Wipe
+techniques/T1562.txt	T1562	Impair Defenses
+techniques/T1562.001.txt	T1562.001	Disable or Modify Tools
+techniques/T1562.002.txt	T1562.002	Disable Windows Event Logging
+techniques/T1562.003.txt	T1562.003	Impair Command History Logging
+techniques/T1562.004.txt	T1562.004	Disable or Modify System Firewall
+techniques/T1562.006.txt	T1562.006	Indicator Blocking
+techniques/T1562.007.txt	T1562.007	Disable or Modify Cloud Firewall
+techniques/T1562.008.txt	T1562.008	Disable or Modify Cloud Logs
+techniques/T1562.009.txt	T1562.009	Safe Mode Boot
+techniques/T1562.010.txt	T1562.010	Downgrade Attack
+techniques/T1562.011.txt	T1562.011	Spoof Security Alerting
+techniques/T1562.012.txt	T1562.012	Disable or Modify Linux Audit System
+techniques/T1562.013.txt	T1562.013	Disable or Modify Network Device Firewall
+techniques/T1563.txt	T1563	Remote Service Session Hijacking
+techniques/T1563.001.txt	T1563.001	SSH Hijacking
+techniques/T1563.002.txt	T1563.002	RDP Hijacking
+techniques/T1564.txt	T1564	Hide Artifacts
+techniques/T1564.001.txt	T1564.001	Hidden Files and Directories
+techniques/T1564.002.txt	T1564.002	Hidden Users
+techniques/T1564.003.txt	T1564.003	Hidden Window
+techniques/T1564.004.txt	T1564.004	NTFS File Attributes
+techniques/T1564.005.txt	T1564.005	Hidden File System
+techniques/T1564.006.txt	T1564.006	Run Virtual Instance
+techniques/T1564.007.txt	T1564.007	VBA Stomping
+techniques/T1564.008.txt	T1564.008	Email Hiding Rules
+techniques/T1564.009.txt	T1564.009	Resource Forking
+techniques/T1564.010.txt	T1564.010	Process Argument Spoofing
+techniques/T1564.011.txt	T1564.011	Ignore Process Interrupts
+techniques/T1564.012.txt	T1564.012	File/Path Exclusions
+techniques/T1564.013.txt	T1564.013	Bind Mounts
+techniques/T1564.014.txt	T1564.014	Extended Attributes
+techniques/T1565.txt	T1565	Data Manipulation
+techniques/T1565.001.txt	T1565.001	Stored Data Manipulation
+techniques/T1565.002.txt	T1565.002	Transmitted Data Manipulation
+techniques/T1565.003.txt	T1565.003	Runtime Data Manipulation
+techniques/T1566.txt	T1566	Phishing
+techniques/T1566.001.txt	T1566.001	Spearphishing Attachment
+techniques/T1566.002.txt	T1566.002	Spearphishing Link
+techniques/T1566.003.txt	T1566.003	Spearphishing via Service
+techniques/T1566.004.txt	T1566.004	Spearphishing Voice
+techniques/T1567.txt	T1567	Exfiltration Over Web Service
+techniques/T1567.001.txt	T1567.001	Exfiltration to Code Repository
+techniques/T1567.002.txt	T1567.002	Exfiltration to Cloud Storage
+techniques/T1567.003.txt	T1567.003	Exfiltration to Text Storage Sites
+techniques/T1567.004.txt	T1567.004	Exfiltration Over Webhook
+techniques/T1568.txt	T1568	Dynamic Resolution
+techniques/T1568.001.txt	T1568.001	Fast Flux DNS
+techniques/T1568.002.txt	T1568.002	Domain Generation Algorithms
+techniques/T1568.003.txt	T1568.003	DNS Calculation
+techniques/T1569.txt	T1569	System Services
+techniques/T1569.001.txt	T1569.001	Launchctl
+techniques/T1569.002.txt	T1569.002	Service Execution
+techniques/T1569.003.txt	T1569.003	Systemctl
+techniques/T1570.txt	T1570	Lateral Tool Transfer
+techniques/T1571.txt	T1571	Non-Standard Port
+techniques/T1572.txt	T1572	Protocol Tunneling
+techniques/T1573.txt	T1573	Encrypted Channel
+techniques/T1573.001.txt	T1573.001	Symmetric Cryptography
+techniques/T1573.002.txt	T1573.002	Asymmetric Cryptography
+techniques/T1574.txt	T1574	Hijack Execution Flow
+techniques/T1574.001.txt	T1574.001	DLL
+techniques/T1574.002.txt	T1574.002	DLL Side-Loading
+techniques/T1574.004.txt	T1574.004	Dylib Hijacking
+techniques/T1574.005.txt	T1574.005	Executable Installer File Permissions Weakness
+techniques/T1574.006.txt	T1574.006	Dynamic Linker Hijacking
+techniques/T1574.007.txt	T1574.007	Path Interception by PATH Environment Variable
+techniques/T1574.008.txt	T1574.008	Path Interception by Search Order Hijacking
+techniques/T1574.009.txt	T1574.009	Path Interception by Unquoted Path
+techniques/T1574.010.txt	T1574.010	Services File Permissions Weakness
+techniques/T1574.011.txt	T1574.011	Services Registry Permissions Weakness
+techniques/T1574.012.txt	T1574.012	COR_PROFILER
+techniques/T1574.013.txt	T1574.013	KernelCallbackTable
+techniques/T1574.014.txt	T1574.014	AppDomainManager
+techniques/T1575.txt	T1575	Native API
+techniques/T1576.txt	T1576	Uninstall Malicious Application
+techniques/T1577.txt	T1577	Compromise Application Executable
+techniques/T1578.txt	T1578	Modify Cloud Compute Infrastructure
+techniques/T1578.001.txt	T1578.001	Create Snapshot
+techniques/T1578.002.txt	T1578.002	Create Cloud Instance
+techniques/T1578.003.txt	T1578.003	Delete Cloud Instance
+techniques/T1578.004.txt	T1578.004	Revert Cloud Instance
+techniques/T1578.005.txt	T1578.005	Modify Cloud Compute Configurations
+techniques/T1579.txt	T1579	Keychain
+techniques/T1580.txt	T1580	Cloud Infrastructure Discovery
+techniques/T1581.txt	T1581	Geofencing
+techniques/T1582.txt	T1582	SMS Control
+techniques/T1583.txt	T1583	Acquire Infrastructure
+techniques/T1583.001.txt	T1583.001	Domains
+techniques/T1583.002.txt	T1583.002	DNS Server
+techniques/T1583.003.txt	T1583.003	Virtual Private Server
+techniques/T1583.004.txt	T1583.004	Server
+techniques/T1583.005.txt	T1583.005	Botnet
+techniques/T1583.006.txt	T1583.006	Web Services
+techniques/T1583.007.txt	T1583.007	Serverless
+techniques/T1583.008.txt	T1583.008	Malvertising
+techniques/T1584.txt	T1584	Compromise Infrastructure
+techniques/T1584.001.txt	T1584.001	Domains
+techniques/T1584.002.txt	T1584.002	DNS Server
+techniques/T1584.003.txt	T1584.003	Virtual Private Server
+techniques/T1584.004.txt	T1584.004	Server
+techniques/T1584.005.txt	T1584.005	Botnet
+techniques/T1584.006.txt	T1584.006	Web Services
+techniques/T1584.007.txt	T1584.007	Serverless
+techniques/T1584.008.txt	T1584.008	Network Devices
+techniques/T1585.txt	T1585	Establish Accounts
+techniques/T1585.001.txt	T1585.001	Social Media Accounts
+techniques/T1585.002.txt	T1585.002	Email Accounts
+techniques/T1585.003.txt	T1585.003	Cloud Accounts
+techniques/T1586.txt	T1586	Compromise Accounts
+techniques/T1586.001.txt	T1586.001	Social Media Accounts
+techniques/T1586.002.txt	T1586.002	Email Accounts
+techniques/T1586.003.txt	T1586.003	Cloud Accounts
+techniques/T1587.txt	T1587	Develop Capabilities
+techniques/T1587.001.txt	T1587.001	Malware
+techniques/T1587.002.txt	T1587.002	Code Signing Certificates
+techniques/T1587.003.txt	T1587.003	Digital Certificates
+techniques/T1587.004.txt	T1587.004	Exploits
+techniques/T1588.txt	T1588	Obtain Capabilities
+techniques/T1588.001.txt	T1588.001	Malware
+techniques/T1588.002.txt	T1588.002	Tool
+techniques/T1588.003.txt	T1588.003	Code Signing Certificates
+techniques/T1588.004.txt	T1588.004	Digital Certificates
+techniques/T1588.005.txt	T1588.005	Exploits
+techniques/T1588.006.txt	T1588.006	Vulnerabilities
+techniques/T1588.007.txt	T1588.007	Artificial Intelligence
+techniques/T1589.txt	T1589	Gather Victim Identity Information
+techniques/T1589.001.txt	T1589.001	Credentials
+techniques/T1589.002.txt	T1589.002	Email Addresses
+techniques/T1589.003.txt	T1589.003	Employee Names
+techniques/T1590.txt	T1590	Gather Victim Network Information
+techniques/T1590.001.txt	T1590.001	Domain Properties
+techniques/T1590.002.txt	T1590.002	DNS
+techniques/T1590.003.txt	T1590.003	Network Trust Dependencies
+techniques/T1590.004.txt	T1590.004	Network Topology
+techniques/T1590.005.txt	T1590.005	IP Addresses
+techniques/T1590.006.txt	T1590.006	Network Security Appliances
+techniques/T1591.txt	T1591	Gather Victim Org Information
+techniques/T1591.001.txt	T1591.001	Determine Physical Locations
+techniques/T1591.002.txt	T1591.002	Business Relationships
+techniques/T1591.003.txt	T1591.003	Identify Business Tempo
+techniques/T1591.004.txt	T1591.004	Identify Roles
+techniques/T1592.txt	T1592	Gather Victim Host Information
+techniques/T1592.001.txt	T1592.001	Hardware
+techniques/T1592.002.txt	T1592.002	Software
+techniques/T1592.003.txt	T1592.003	Firmware
+techniques/T1592.004.txt	T1592.004	Client Configurations
+techniques/T1593.txt	T1593	Search Open Websites/Domains
+techniques/T1593.001.txt	T1593.001	Social Media
+techniques/T1593.002.txt	T1593.002	Search Engines
+techniques/T1593.003.txt	T1593.003	Code Repositories
+techniques/T1594.txt	T1594	Search Victim-Owned Websites
+techniques/T1595.txt	T1595	Active Scanning
+techniques/T1595.001.txt	T1595.001	Scanning IP Blocks
+techniques/T1595.002.txt	T1595.002	Vulnerability Scanning
+techniques/T1595.003.txt	T1595.003	Wordlist Scanning
+techniques/T1596.txt	T1596	Search Open Technical Databases
+techniques/T1596.001.txt	T1596.001	DNS/Passive DNS
+techniques/T1596.002.txt	T1596.002	WHOIS
+techniques/T1596.003.txt	T1596.003	Digital Certificates
+techniques/T1596.004.txt	T1596.004	CDNs
+techniques/T1596.005.txt	T1596.005	Scan Databases
+techniques/T1597.txt	T1597	Search Closed Sources
+techniques/T1597.001.txt	T1597.001	Threat Intel Vendors
+techniques/T1597.002.txt	T1597.002	Purchase Technical Data
+techniques/T1598.txt	T1598	Phishing for Information
+techniques/T1598.001.txt	T1598.001	Spearphishing Service
+techniques/T1598.002.txt	T1598.002	Spearphishing Attachment
+techniques/T1598.003.txt	T1598.003	Spearphishing Link
+techniques/T1598.004.txt	T1598.004	Spearphishing Voice
+techniques/T1599.txt	T1599	Network Boundary Bridging
+techniques/T1599.001.txt	T1599.001	Network Address Translation Traversal
+techniques/T1600.txt	T1600	Weaken Encryption
+techniques/T1600.001.txt	T1600.001	Reduce Key Space
+techniques/T1600.002.txt	T1600.002	Disable Crypto Hardware
+techniques/T1601.txt	T1601	Modify System Image
+techniques/T1601.001.txt	T1601.001	Patch System Image
+techniques/T1601.002.txt	T1601.002	Downgrade System Image
+techniques/T1602.txt	T1602	Data from Configuration Repository
+techniques/T1602.001.txt	T1602.001	SNMP (MIB Dump)
+techniques/T1602.002.txt	T1602.002	Network Device Configuration Dump
+techniques/T1603.txt	T1603	Scheduled Task/Job
+techniques/T1604.txt	T1604	Proxy Through Victim
+techniques/T1605.txt	T1605	Command-Line Interface
+techniques/T1606.txt	T1606	Forge Web Credentials
+techniques/T1606.001.txt	T1606.001	Web Cookies
+techniques/T1606.002.txt	T1606.002	SAML Tokens
+techniques/T1608.txt	T1608	Stage Capabilities
+techniques/T1608.001.txt	T1608.001	Upload Malware
+techniques/T1608.002.txt	T1608.002	Upload Tool
+techniques/T1608.003.txt	T1608.003	Install Digital Certificate
+techniques/T1608.004.txt	T1608.004	Drive-by Target
+techniques/T1608.005.txt	T1608.005	Link Target
+techniques/T1608.006.txt	T1608.006	SEO Poisoning
+techniques/T1609.txt	T1609	Container Administration Command
+techniques/T1610.txt	T1610	Deploy Container
+techniques/T1611.txt	T1611	Escape to Host
+techniques/T1612.txt	T1612	Build Image on Host
+techniques/T1613.txt	T1613	Container and Resource Discovery
+techniques/T1614.txt	T1614	System Location Discovery
+techniques/T1614.001.txt	T1614.001	System Language Discovery
+techniques/T1615.txt	T1615	Group Policy Discovery
+techniques/T1616.txt	T1616	Call Control
+techniques/T1617.txt	T1617	Hooking
+techniques/T1618.txt	T1618	User Evasion
+techniques/T1619.txt	T1619	Cloud Storage Object Discovery
+techniques/T1620.txt	T1620	Reflective Code Loading
+techniques/T1621.txt	T1621	Multi-Factor Authentication Request Generation
+techniques/T1622.txt	T1622	Debugger Evasion
+techniques/T1623.txt	T1623	Command and Scripting Interpreter
+techniques/T1623.001.txt	T1623.001	Unix Shell
+techniques/T1624.txt	T1624	Event Triggered Execution
+techniques/T1624.001.txt	T1624.001	Broadcast Receivers
+techniques/T1625.txt	T1625	Hijack Execution Flow
+techniques/T1625.001.txt	T1625.001	System Runtime API Hijacking
+techniques/T1626.txt	T1626	Abuse Elevation Control Mechanism
+techniques/T1626.001.txt	T1626.001	Device Administrator Permissions
+techniques/T1627.txt	T1627	Execution Guardrails
+techniques/T1627.001.txt	T1627.001	Geofencing
+techniques/T1628.txt	T1628	Hide Artifacts
+techniques/T1628.001.txt	T1628.001	Suppress Application Icon
+techniques/T1628.002.txt	T1628.002	User Evasion
+techniques/T1628.003.txt	T1628.003	Conceal Multimedia Files
+techniques/T1629.txt	T1629	Impair Defenses
+techniques/T1629.001.txt	T1629.001	Prevent Application Removal
+techniques/T1629.002.txt	T1629.002	Device Lockout
+techniques/T1629.003.txt	T1629.003	Disable or Modify Tools
+techniques/T1630.txt	T1630	Indicator Removal on Host
+techniques/T1630.001.txt	T1630.001	Uninstall Malicious Application
+techniques/T1630.002.txt	T1630.002	File Deletion
+techniques/T1630.003.txt	T1630.003	Disguise Root/Jailbreak Indicators
+techniques/T1631.txt	T1631	Process Injection
+techniques/T1631.001.txt	T1631.001	Ptrace System Calls
+techniques/T1632.txt	T1632	Subvert Trust Controls
+techniques/T1632.001.txt	T1632.001	Code Signing Policy Modification
+techniques/T1633.txt	T1633	Virtualization/Sandbox Evasion
+techniques/T1633.001.txt	T1633.001	System Checks
+techniques/T1634.txt	T1634	Credentials from Password Store
+techniques/T1634.001.txt	T1634.001	Keychain
+techniques/T1635.txt	T1635	Steal Application Access Token
+techniques/T1635.001.txt	T1635.001	URI Hijacking
+techniques/T1636.txt	T1636	Protected User Data
+techniques/T1636.001.txt	T1636.001	Calendar Entries
+techniques/T1636.002.txt	T1636.002	Call Log
+techniques/T1636.003.txt	T1636.003	Contact List
+techniques/T1636.004.txt	T1636.004	SMS Messages
+techniques/T1636.005.txt	T1636.005	Accounts
+techniques/T1637.txt	T1637	Dynamic Resolution
+techniques/T1637.001.txt	T1637.001	Domain Generation Algorithms
+techniques/T1638.txt	T1638	Adversary-in-the-Middle
+techniques/T1639.txt	T1639	Exfiltration Over Alternative Protocol
+techniques/T1639.001.txt	T1639.001	Exfiltration Over Unencrypted Non-C2 Protocol
+techniques/T1640.txt	T1640	Account Access Removal
+techniques/T1641.txt	T1641	Data Manipulation
+techniques/T1641.001.txt	T1641.001	Transmitted Data Manipulation
+techniques/T1642.txt	T1642	Endpoint Denial of Service
+techniques/T1643.txt	T1643	Generate Traffic from Victim
+techniques/T1644.txt	T1644	Out of Band Data
+techniques/T1645.txt	T1645	Compromise Client Software Binary
+techniques/T1646.txt	T1646	Exfiltration Over C2 Channel
+techniques/T1647.txt	T1647	Plist File Modification
+techniques/T1648.txt	T1648	Serverless Execution
+techniques/T1649.txt	T1649	Steal or Forge Authentication Certificates
+techniques/T1650.txt	T1650	Acquire Access
+techniques/T1651.txt	T1651	Cloud Administration Command
+techniques/T1652.txt	T1652	Device Driver Discovery
+techniques/T1653.txt	T1653	Power Settings
+techniques/T1654.txt	T1654	Log Enumeration
+techniques/T1655.txt	T1655	Masquerading
+techniques/T1655.001.txt	T1655.001	Match Legitimate Name or Location
+techniques/T1656.txt	T1656	Impersonation
+techniques/T1657.txt	T1657	Financial Theft
+techniques/T1658.txt	T1658	Exploitation for Client Execution
+techniques/T1659.txt	T1659	Content Injection
+techniques/T1660.txt	T1660	Phishing
+techniques/T1661.txt	T1661	Application Versioning
+techniques/T1662.txt	T1662	Data Destruction
+techniques/T1663.txt	T1663	Remote Access Software
+techniques/T1664.txt	T1664	Exploitation for Initial Access
+techniques/T1665.txt	T1665	Hide Infrastructure
+techniques/T1666.txt	T1666	Modify Cloud Resource Hierarchy
+techniques/T1667.txt	T1667	Email Bombing
+techniques/T1668.txt	T1668	Exclusive Control
+techniques/T1669.txt	T1669	Wi-Fi Networks
+techniques/T1670.txt	T1670	Virtualization Solution
+techniques/T1671.txt	T1671	Cloud Application Integration
+techniques/T1672.txt	T1672	Email Spoofing
+techniques/T1673.txt	T1673	Virtual Machine Discovery
+techniques/T1674.txt	T1674	Input Injection
+techniques/T1675.txt	T1675	ESXi Administration Command
+techniques/T1676.txt	T1676	Linked Devices
+techniques/T1677.txt	T1677	Poisoned Pipeline Execution
+techniques/T1678.txt	T1678	Delay Execution
+techniques/T1679.txt	T1679	Selective Exclusion
+techniques/T1680.txt	T1680	Local Storage Discovery
+techniques/T1681.txt	T1681	Search Threat Vendor Data
+techniques/T1682.txt	T1682	Query Public AI Services
+techniques/T1683.txt	T1683	Generate Content
+techniques/T1683.001.txt	T1683.001	Written Content
+techniques/T1683.002.txt	T1683.002	Audio-Visual Content
+techniques/T1684.txt	T1684	Social Engineering
+techniques/T1684.001.txt	T1684.001	Impersonation
+techniques/T1684.002.txt	T1684.002	Email Spoofing
+techniques/T1685.txt	T1685	Disable or Modify Tools
+techniques/T1685.001.txt	T1685.001	Disable or Modify Windows Event Log
+techniques/T1685.002.txt	T1685.002	Disable or Modify Cloud Log
+techniques/T1685.003.txt	T1685.003	Modify or Spoof Tool UI
+techniques/T1685.004.txt	T1685.004	Disable or Modify Linux Audit System Log
+techniques/T1685.005.txt	T1685.005	Clear Windows Event Logs
+techniques/T1685.006.txt	T1685.006	Clear Linux or Mac System Logs
+techniques/T1686.txt	T1686	Disable or Modify System Firewall
+techniques/T1686.001.txt	T1686.001	Cloud Firewall
+techniques/T1686.002.txt	T1686.002	Network Device Firewall
+techniques/T1686.003.txt	T1686.003	Windows Host Firewall
+techniques/T1687.txt	T1687	Exploitation for Defense Impairment
+techniques/T1688.txt	T1688	Safe Mode Boot
+techniques/T1689.txt	T1689	Downgrade Attack
+techniques/T1690.txt	T1690	Prevent Command History Logging
+techniques/T1691.txt	T1691	Block Operational Technology Message
+techniques/T1691.001.txt	T1691.001	Command Message
+techniques/T1691.002.txt	T1691.002	Reporting Message
+techniques/T1692.txt	T1692	Unauthorized Message
+techniques/T1692.001.txt	T1692.001	Command Message
+techniques/T1692.002.txt	T1692.002	Reporting Message
+techniques/T1693.txt	T1693	Modify Firmware
+techniques/T1693.001.txt	T1693.001	System Firmware
+techniques/T1693.002.txt	T1693.002	Module Firmware
+techniques/T1694.txt	T1694	Insecure Credentials
+techniques/T1694.001.txt	T1694.001	Default Credentials
+techniques/T1694.002.txt	T1694.002	Hardcoded Credentials
+techniques/T1695.txt	T1695	Block Communications
+techniques/T1695.001.txt	T1695.001	Serial COM
+techniques/T1695.002.txt	T1695.002	Ethernet
+techniques/T1695.003.txt	T1695.003	Wi-Fi

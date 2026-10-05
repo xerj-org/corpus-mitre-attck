@@ -1,0 +1,1 @@
+T1445 | Abuse of iOS Enterprise App Signing Key | domain: mobile-attack | matrix: n/a | status: revoked; superseded by T1476 (Deliver Malicious App via Other Means)

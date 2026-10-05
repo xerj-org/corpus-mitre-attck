@@ -1,0 +1,19 @@
+T1430.001 | Remote Device Management Services | domain: mobile-attack | matrix: mitre-mobile-attack
+
+DESCRIPTION
+An adversary may use access to cloud services (e.g. Google's Android Device Manager or Apple iCloud's Find my iPhone) or to an enterprise mobility management (EMM)/mobile device management (MDM) server console to track the location of mobile devices managed by the service.(Citation: Krebs-Location)
+
+KILL CHAIN PHASES
+collection (mitre-mobile-attack)
+discovery (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS
+
+MITIGATIONS
+- Enterprise Policy
+- User Guidance
+
+DETECTION STRATEGIES
+- DET0702 Detection of Remote Device Management Services

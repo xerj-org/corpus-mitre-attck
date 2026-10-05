@@ -1,0 +1,11 @@
+T1432 | Access Contact List | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1636.003 (Contact List)
+
+DESCRIPTION
+An adversary could call standard operating system APIs from a malicious application to gather contact list (i.e., address book) data, or with escalated privileges could directly access files containing contact list data.
+
+KILL CHAIN PHASES
+collection (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS

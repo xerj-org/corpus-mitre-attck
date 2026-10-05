@@ -1,0 +1,11 @@
+T1399 | Modify Trusted Execution Environment | domain: mobile-attack | matrix: mitre-mobile-attack | status: deprecated
+
+DESCRIPTION
+If an adversary can escalate privileges, he or she may be able to use those privileges to place malicious code in the device's Trusted Execution Environment (TEE) or other similar isolated execution environment where the code can evade detection, may persist after device resets, and may not be removable by the device user. Running code within the TEE may provide an adversary with the ability to monitor or tamper with overall device behavior.(Citation: Roth-Rootkits)
+
+KILL CHAIN PHASES
+defense-evasion (mitre-mobile-attack)
+persistence (mitre-mobile-attack)
+
+PLATFORMS
+Android

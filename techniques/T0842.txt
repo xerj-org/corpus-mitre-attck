@@ -1,0 +1,24 @@
+T0842 | Network Sniffing | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Network sniffing is the practice of using a network interface on a computer system to monitor or capture information (Citation: Enterprise ATT&CK January 2018) regardless of whether it is the specified destination for the information. 
+
+An adversary may attempt to sniff the traffic to gain information about the target. This information can vary in the level of importance. Relatively unimportant information is general communications to and from machines.  Relatively important information would be login information. User credentials may be sent over an unencrypted protocol, such as Telnet, that can be captured and obtained through network packet analysis. 
+
+In addition, ARP and Domain Name Service (DNS) poisoning can be used to capture credentials to websites, proxies, and internal systems by redirecting traffic to an adversary.
+
+KILL CHAIN PHASES
+discovery (mitre-ics-attack)
+
+PLATFORMS
+None
+
+MITIGATIONS
+- Encrypt Network Traffic
+- Multi-factor Authentication
+- Network Segmentation
+- Privileged Account Management
+- Static Network Configuration
+
+DETECTION STRATEGIES
+- DET0800 Detection of Network Sniffing

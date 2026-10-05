@@ -1,0 +1,16 @@
+T1478 | Install Insecure or Malicious Configuration | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1632.001 (Code Signing Policy Modification)
+
+DESCRIPTION
+An adversary could attempt to install insecure or malicious configuration settings on the mobile device, through means such as phishing emails or text messages either directly containing the configuration settings as an attachment, or containing a web link to the configuration settings. The device user may be tricked into installing the configuration settings through social engineering techniques (Citation: Symantec-iOSProfile).
+
+For example, an unwanted Certification Authority (CA) certificate could be placed in the device's trusted certificate store, increasing the device's susceptibility to adversary-in-the-middle network attacks seeking to eavesdrop on or manipulate the device's network communication ([Eavesdrop on Insecure Network Communication](https://attack.mitre.org/techniques/T1439) and [Manipulate Device Communication](https://attack.mitre.org/techniques/T1463)).
+
+On iOS, malicious Configuration Profiles could contain unwanted Certification Authority (CA) certificates or other insecure settings such as unwanted proxy server or VPN settings to route the device's network traffic through an adversary's system. The device could also potentially be enrolled into a malicious Mobile Device Management (MDM) system (Citation: Talos-MDM).
+
+KILL CHAIN PHASES
+defense-evasion (mitre-mobile-attack)
+initial-access (mitre-mobile-attack)
+
+PLATFORMS
+Android
+iOS

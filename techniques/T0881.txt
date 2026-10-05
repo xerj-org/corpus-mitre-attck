@@ -1,0 +1,19 @@
+T0881 | Service Stop | domain: ics-attack | matrix: mitre-ics-attack
+
+DESCRIPTION
+Adversaries may stop or disable services on a system to render those services unavailable to legitimate users. Stopping critical services can inhibit or stop response to an incident or aid in the adversary's overall objectives to cause damage to the environment. (Citation: Enterprise ATT&CK)  Services may not allow for modification of their data stores while running. Adversaries may stop services in order to conduct Data Destruction. (Citation: Enterprise ATT&CK)
+
+KILL CHAIN PHASES
+inhibit-response-function (mitre-ics-attack)
+
+PLATFORMS
+None
+
+MITIGATIONS
+- Network Segmentation
+- Restrict File and Directory Permissions
+- Restrict Registry Permissions
+- User Account Management
+
+DETECTION STRATEGIES
+- DET0765 Detection of Service Stop

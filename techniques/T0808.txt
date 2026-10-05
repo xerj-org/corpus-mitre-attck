@@ -1,0 +1,11 @@
+T0808 | Control Device Identification | domain: ics-attack | matrix: mitre-ics-attack | status: deprecated
+
+DESCRIPTION
+Adversaries may perform control device identification to determine the make and model of a target device. Management software and device APIs may be utilized by the adversary to gain this information. By identifying and obtaining device specifics, the adversary may be able to determine device vulnerabilities. This device information can also be used to understand device functionality and inform the decision to target the environment.
+
+KILL CHAIN PHASES
+discovery (mitre-ics-attack)
+
+PLATFORMS
+Windows
+Field Controller/RTU/PLC/IED

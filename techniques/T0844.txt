@@ -1,0 +1,18 @@
+T0844 | Program Organization Units | domain: ics-attack | matrix: mitre-ics-attack | status: deprecated
+
+DESCRIPTION
+Program Organizational Units (POUs) are block structures used within PLC programming to create programs and projects. (Citation: Guidance - IEC61131) POUs can be used to hold user programs written in IEC 61131-3 languages: Structured text, Instruction list, Function block, and Ladder logic. (Citation: Guidance - IEC61131) Application - 201203 They can also provide additional functionality, such as establishing connections between the PLC and other devices using TCON. (Citation: PLCBlaster - Spenneberg)
+  
+Stuxnet uses a simple code-prepending infection technique to infect Organization Blocks (OB). For example, the following sequence of actions is performed when OB1 is infected  (Citation: Stuxnet - Symantec - 201102):
+*Increase the size of the original block.
+*Write malicious code to the beginning of the block.
+*Insert the original OB1 code after the malicious code.
+
+KILL CHAIN PHASES
+lateral-movement (mitre-ics-attack)
+execution (mitre-ics-attack)
+
+PLATFORMS
+Windows
+Safety Instrumented System/Protection Relay
+Field Controller/RTU/PLC/IED

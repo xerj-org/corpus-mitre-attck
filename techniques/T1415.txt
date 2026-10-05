@@ -1,0 +1,10 @@
+T1415 | URL Scheme Hijacking | domain: mobile-attack | matrix: mitre-mobile-attack | status: revoked; superseded by T1635.001 (URI Hijacking)
+
+DESCRIPTION
+An iOS application may be able to maliciously claim a URL scheme, allowing it to intercept calls that are meant for a different application(Citation: FireEye-Masque2)(Citation: Dhanjani-URLScheme). This technique, for example, could be used to capture OAuth authorization codes(Citation: IETF-PKCE) or to phish user credentials(Citation: MobileIron-XARA).
+
+KILL CHAIN PHASES
+credential-access (mitre-mobile-attack)
+
+PLATFORMS
+iOS

@@ -1,0 +1,21 @@
+T1573 | Encrypted Channel | domain: enterprise-attack | matrix: mitre-attack
+
+DESCRIPTION
+Adversaries may employ an encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. Despite the use of a secure algorithm, these implementations may be vulnerable to reverse engineering if secret keys are encoded and/or generated within malware samples/configuration files.
+
+KILL CHAIN PHASES
+command-and-control (mitre-attack)
+
+PLATFORMS
+ESXi
+Linux
+macOS
+Network Devices
+Windows
+
+MITIGATIONS
+- Network Intrusion Prevention
+- SSL/TLS Inspection
+
+DETECTION STRATEGIES
+- DET0273 Detection Strategy for Encrypted Channel across OS Platforms

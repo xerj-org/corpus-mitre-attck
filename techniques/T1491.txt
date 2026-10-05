@@ -1,0 +1,20 @@
+T1491 | Defacement | domain: enterprise-attack | matrix: mitre-attack
+
+DESCRIPTION
+Adversaries may modify visual content available internally or externally to an enterprise network, thus affecting the integrity of the original content. Reasons for [Defacement](https://attack.mitre.org/techniques/T1491) include delivering messaging, intimidation, or claiming (possibly false) credit for an intrusion. Disturbing or offensive images may be used as a part of [Defacement](https://attack.mitre.org/techniques/T1491) in order to cause user discomfort, or to pressure compliance with accompanying messages.
+
+KILL CHAIN PHASES
+impact (mitre-attack)
+
+PLATFORMS
+Windows
+IaaS
+Linux
+macOS
+ESXi
+
+MITIGATIONS
+- Data Backup
+
+DETECTION STRATEGIES
+- DET0238 Defacement via File and Web Content Modification Across Platforms
